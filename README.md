@@ -6,12 +6,6 @@ The focus is **workflow reliability**: every invoice ends in a known state, ever
 
 ### Demo (2 min)
 
-<!-- On github.com: edit this file, click on the empty line below this comment, and drag in docs/invoice-agent-demo-bw.mp4. GitHub turns it into a playable video. -->
-<p align="center">
-  <img src="docs/screenshots/review.png" alt="Review screen: an invoice flagged for a price mismatch, with the PDF next to the extracted fields" width="640">
-</p>
-
-
 https://github.com/user-attachments/assets/00da5c00-6402-4e1d-bc38-b8dc75386f71
 
 ---
