@@ -1,0 +1,382 @@
+{
+  "set": "holdout",
+  "extractor": "rules",
+  "erp_fail_rate": 0.0,
+  "invoices": 20,
+  "outcome_accuracy": [
+    2,
+    20
+  ],
+  "status_accuracy": [
+    8,
+    20
+  ],
+  "false_approvals": [
+    0,
+    8
+  ],
+  "clean_auto_approved": [
+    0,
+    12
+  ],
+  "field_accuracy_all": {
+    "vendor_name": [
+      0,
+      20
+    ],
+    "invoice_number": [
+      0,
+      20
+    ],
+    "invoice_date": [
+      0,
+      20
+    ],
+    "po_number": [
+      2,
+      20
+    ],
+    "subtotal": [
+      0,
+      20
+    ],
+    "tax": [
+      0,
+      20
+    ],
+    "total": [
+      0,
+      20
+    ]
+  },
+  "field_accuracy_readable": {
+    "vendor_name": [
+      0,
+      20
+    ],
+    "invoice_number": [
+      0,
+      20
+    ],
+    "invoice_date": [
+      0,
+      20
+    ],
+    "po_number": [
+      2,
+      20
+    ],
+    "subtotal": [
+      0,
+      20
+    ],
+    "tax": [
+      0,
+      20
+    ],
+    "total": [
+      0,
+      20
+    ]
+  },
+  "line_item_accuracy": [
+    0,
+    72
+  ],
+  "by_category": {
+    "clean": [
+      0,
+      12
+    ],
+    "totals_mismatch": [
+      0,
+      3
+    ],
+    "price_mismatch": [
+      0,
+      3
+    ],
+    "missing_po": [
+      2,
+      2
+    ]
+  },
+  "confusion": {
+    "approved -> needs_review": 12,
+    "needs_review -> needs_review": 8
+  },
+  "failure_causes": {
+    "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items": 18
+  },
+  "failures": [
+    {
+      "file": "holdout_001.pdf",
+      "category": "clean",
+      "layout": "D",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_002.pdf",
+      "category": "clean",
+      "layout": "D",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_003.pdf",
+      "category": "clean",
+      "layout": "D",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_004.pdf",
+      "category": "totals_mismatch",
+      "layout": "D",
+      "expected_status": "needs_review",
+      "status": "needs_review",
+      "expected_reasons": [
+        "TOTALS_MISMATCH"
+      ],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_005.pdf",
+      "category": "clean",
+      "layout": "D",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_006.pdf",
+      "category": "clean",
+      "layout": "D",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_007.pdf",
+      "category": "totals_mismatch",
+      "layout": "D",
+      "expected_status": "needs_review",
+      "status": "needs_review",
+      "expected_reasons": [
+        "TOTALS_MISMATCH"
+      ],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_008.pdf",
+      "category": "clean",
+      "layout": "D",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_009.pdf",
+      "category": "price_mismatch",
+      "layout": "D",
+      "expected_status": "needs_review",
+      "status": "needs_review",
+      "expected_reasons": [
+        "PRICE_MISMATCH"
+      ],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_010.pdf",
+      "category": "totals_mismatch",
+      "layout": "D",
+      "expected_status": "needs_review",
+      "status": "needs_review",
+      "expected_reasons": [
+        "TOTALS_MISMATCH"
+      ],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_011.pdf",
+      "category": "clean",
+      "layout": "D",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_012.pdf",
+      "category": "price_mismatch",
+      "layout": "D",
+      "expected_status": "needs_review",
+      "status": "needs_review",
+      "expected_reasons": [
+        "PRICE_MISMATCH"
+      ],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_013.pdf",
+      "category": "clean",
+      "layout": "D",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_014.pdf",
+      "category": "clean",
+      "layout": "D",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_016.pdf",
+      "category": "clean",
+      "layout": "D",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_017.pdf",
+      "category": "price_mismatch",
+      "layout": "D",
+      "expected_status": "needs_review",
+      "status": "needs_review",
+      "expected_reasons": [
+        "PRICE_MISMATCH"
+      ],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_018.pdf",
+      "category": "clean",
+      "layout": "D",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    },
+    {
+      "file": "holdout_020.pdf",
+      "category": "clean",
+      "layout": "D",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "MISSING_FIELDS",
+        "UNKNOWN_VENDOR",
+        "MISSING_PO"
+      ],
+      "cause": "extraction error: vendor_name, invoice_number, invoice_date, po_number, subtotal, tax, total, line_items"
+    }
+  ],
+  "avg_ms_per_invoice": 8.3,
+  "total_seconds": 0.24,
+  "methods": {
+    "rules": 20
+  }
+}

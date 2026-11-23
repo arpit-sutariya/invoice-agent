@@ -1,0 +1,4480 @@
+[
+  {
+    "category": "partial",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00868",
+    "invoice_date": "2026-11-08",
+    "po_number": "PO-2026-0001",
+    "currency": "USD",
+    "subtotal": "1589.80",
+    "tax": "0.00",
+    "total": "1589.80",
+    "line_items": [
+      {
+        "sku": "SSG-1037",
+        "description": "Safety Glasses Clear",
+        "quantity": 50,
+        "unit_price": "4.10",
+        "amount": "205.00"
+      },
+      {
+        "sku": "SSG-1111",
+        "description": "Cut Resistant Gloves",
+        "quantity": 12,
+        "unit_price": "11.40",
+        "amount": "136.80"
+      },
+      {
+        "sku": "SSG-1148",
+        "description": "Ear Plugs Dispenser Refill",
+        "quantity": 24,
+        "unit_price": "52.00",
+        "amount": "1248.00"
+      }
+    ],
+    "file": "main_001.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "partial",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000335",
+    "invoice_date": "2026-09-09",
+    "po_number": "PO-2026-0002",
+    "currency": "USD",
+    "subtotal": "655.30",
+    "tax": "39.32",
+    "total": "694.62",
+    "line_items": [
+      {
+        "sku": "RLF-1074",
+        "description": "Anchor Kit Concrete",
+        "quantity": 10,
+        "unit_price": "33.15",
+        "amount": "331.50"
+      },
+      {
+        "sku": "RLF-1037",
+        "description": "Lock Washer Box 500",
+        "quantity": 5,
+        "unit_price": "12.80",
+        "amount": "64.00"
+      },
+      {
+        "sku": "RLF-1148",
+        "description": "Threaded Rod 3ft",
+        "quantity": 10,
+        "unit_price": "5.70",
+        "amount": "57.00"
+      },
+      {
+        "sku": "RLF-1185",
+        "description": "Rivet Box 250",
+        "quantity": 12,
+        "unit_price": "16.90",
+        "amount": "202.80"
+      }
+    ],
+    "file": "main_002.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "unreadable",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "UNREADABLE"
+    ],
+    "vendor_id": "V008",
+    "vendor_name": "Cobalt IT Hardware",
+    "invoice_number": "CIT-26-0247",
+    "invoice_date": "2026-10-26",
+    "po_number": "PO-2026-0003",
+    "currency": "USD",
+    "subtotal": "34035.75",
+    "tax": "2807.95",
+    "total": "36843.70",
+    "line_items": [
+      {
+        "sku": "CIT-1148",
+        "description": "Laptop Sleeve 15in",
+        "quantity": 60,
+        "unit_price": "18.50",
+        "amount": "1110.00"
+      },
+      {
+        "sku": "CIT-1000",
+        "description": "USB-C Dock",
+        "quantity": 24,
+        "unit_price": "149.00",
+        "amount": "3576.00"
+      },
+      {
+        "sku": "CIT-1185",
+        "description": "Network Switch 24 Port",
+        "quantity": 150,
+        "unit_price": "189.00",
+        "amount": "28350.00"
+      },
+      {
+        "sku": "CIT-1074",
+        "description": "Wireless Keyboard",
+        "quantity": 25,
+        "unit_price": "39.99",
+        "amount": "999.75"
+      }
+    ],
+    "file": "main_003.pdf",
+    "layout": "scan"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000128",
+    "invoice_date": "2026-10-18",
+    "po_number": "PO-2026-0004",
+    "currency": "USD",
+    "subtotal": "19581.00",
+    "tax": "1737.81",
+    "total": "21318.81",
+    "line_items": [
+      {
+        "sku": "BOP-1000",
+        "description": "Copy Paper Case",
+        "quantity": 150,
+        "unit_price": "44.99",
+        "amount": "6748.50"
+      },
+      {
+        "sku": "BOP-1074",
+        "description": "Ergonomic Desk Chair",
+        "quantity": 24,
+        "unit_price": "219.00",
+        "amount": "5256.00"
+      },
+      {
+        "sku": "BOP-1037",
+        "description": "Ballpoint Pens Box",
+        "quantity": 150,
+        "unit_price": "6.49",
+        "amount": "973.50"
+      },
+      {
+        "sku": "BOP-1148",
+        "description": "Toner Cartridge Black",
+        "quantity": 60,
+        "unit_price": "86.30",
+        "amount": "5178.00"
+      },
+      {
+        "sku": "BOP-1185",
+        "description": "File Folders Box",
+        "quantity": 100,
+        "unit_price": "14.25",
+        "amount": "1425.00"
+      }
+    ],
+    "file": "main_004.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "missing_po",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "MISSING_PO"
+    ],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000134",
+    "invoice_date": "2026-10-10",
+    "po_number": null,
+    "currency": "USD",
+    "subtotal": "5410.00",
+    "tax": "480.14",
+    "total": "5890.14",
+    "line_items": [
+      {
+        "sku": "BOP-1148",
+        "description": "Toner Cartridge Black",
+        "quantity": 50,
+        "unit_price": "86.30",
+        "amount": "4315.00"
+      },
+      {
+        "sku": "BOP-1074",
+        "description": "Ergonomic Desk Chair",
+        "quantity": 5,
+        "unit_price": "219.00",
+        "amount": "1095.00"
+      }
+    ],
+    "file": "main_005.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "price_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "PRICE_MISMATCH"
+    ],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00876",
+    "invoice_date": "2026-09-09",
+    "po_number": "PO-2026-0006",
+    "currency": "USD",
+    "subtotal": "562.90",
+    "tax": "0.00",
+    "total": "562.90",
+    "line_items": [
+      {
+        "sku": "SSG-1037",
+        "description": "Safety Glasses Clear",
+        "quantity": 10,
+        "unit_price": "4.29",
+        "amount": "42.90"
+      },
+      {
+        "sku": "SSG-1148",
+        "description": "Ear Plugs Dispenser Refill",
+        "quantity": 10,
+        "unit_price": "52.00",
+        "amount": "520.00"
+      }
+    ],
+    "file": "main_006.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V008",
+    "vendor_name": "Cobalt IT Hardware",
+    "invoice_number": "CIT-26-0251",
+    "invoice_date": "2026-10-10",
+    "po_number": "PO-2026-0007",
+    "currency": "USD",
+    "subtotal": "2759.80",
+    "tax": "227.68",
+    "total": "2987.48",
+    "line_items": [
+      {
+        "sku": "CIT-1074",
+        "description": "Wireless Keyboard",
+        "quantity": 20,
+        "unit_price": "39.99",
+        "amount": "799.80"
+      },
+      {
+        "sku": "CIT-1148",
+        "description": "Laptop Sleeve 15in",
+        "quantity": 60,
+        "unit_price": "18.50",
+        "amount": "1110.00"
+      },
+      {
+        "sku": "CIT-1111",
+        "description": "Cat6 Patch Cable 10ft",
+        "quantity": 200,
+        "unit_price": "4.25",
+        "amount": "850.00"
+      }
+    ],
+    "file": "main_007.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "unknown_po",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "UNKNOWN_PO"
+    ],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000344",
+    "invoice_date": "2026-09-30",
+    "po_number": "PO-2026-9602",
+    "currency": "USD",
+    "subtotal": "1367.50",
+    "tax": "82.05",
+    "total": "1449.55",
+    "line_items": [
+      {
+        "sku": "RLF-1111",
+        "description": "Machine Screw Assortment",
+        "quantity": 20,
+        "unit_price": "27.60",
+        "amount": "552.00"
+      },
+      {
+        "sku": "RLF-1148",
+        "description": "Threaded Rod 3ft",
+        "quantity": 20,
+        "unit_price": "5.70",
+        "amount": "114.00"
+      },
+      {
+        "sku": "RLF-1185",
+        "description": "Rivet Box 250",
+        "quantity": 10,
+        "unit_price": "16.90",
+        "amount": "169.00"
+      },
+      {
+        "sku": "RLF-1000",
+        "description": "Hex Bolt Box 100",
+        "quantity": 25,
+        "unit_price": "21.30",
+        "amount": "532.50"
+      }
+    ],
+    "file": "main_008.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00877",
+    "invoice_date": "2026-10-13",
+    "po_number": "PO-2026-0009",
+    "currency": "USD",
+    "subtotal": "1241.50",
+    "tax": "0.00",
+    "total": "1241.50",
+    "line_items": [
+      {
+        "sku": "SSG-1000",
+        "description": "Hard Hat Class E",
+        "quantity": 20,
+        "unit_price": "24.60",
+        "amount": "492.00"
+      },
+      {
+        "sku": "SSG-1185",
+        "description": "First Aid Kit 50 Person",
+        "quantity": 10,
+        "unit_price": "74.95",
+        "amount": "749.50"
+      }
+    ],
+    "file": "main_009.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "vendor_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "VENDOR_MISMATCH"
+    ],
+    "vendor_id": "V002",
+    "vendor_name": "Northwind Packaging Co.",
+    "invoice_number": "NW-2026-0222",
+    "invoice_date": "2026-09-07",
+    "po_number": "PO-2026-0010",
+    "currency": "USD",
+    "subtotal": "3879.25",
+    "tax": "281.25",
+    "total": "4160.50",
+    "line_items": [
+      {
+        "sku": "NWP-1037",
+        "description": "Stretch Wrap Roll",
+        "quantity": 10,
+        "unit_price": "22.40",
+        "amount": "224.00"
+      },
+      {
+        "sku": "NWP-1111",
+        "description": "Bubble Mailer 10x13",
+        "quantity": 150,
+        "unit_price": "0.62",
+        "amount": "93.00"
+      },
+      {
+        "sku": "NWP-1148",
+        "description": "Void Fill Paper Roll",
+        "quantity": 40,
+        "unit_price": "39.90",
+        "amount": "1596.00"
+      },
+      {
+        "sku": "NWP-1000",
+        "description": "Corrugated Box 18x12x12",
+        "quantity": 25,
+        "unit_price": "1.85",
+        "amount": "46.25"
+      },
+      {
+        "sku": "NWP-1074",
+        "description": "Packing Tape Case",
+        "quantity": 40,
+        "unit_price": "48.00",
+        "amount": "1920.00"
+      }
+    ],
+    "file": "main_010.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "unknown_po",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "UNKNOWN_PO"
+    ],
+    "vendor_id": "V002",
+    "vendor_name": "Northwind Packaging Co.",
+    "invoice_number": "NW-2026-0231",
+    "invoice_date": "2026-10-28",
+    "po_number": "PO-2026-9194",
+    "currency": "USD",
+    "subtotal": "966.20",
+    "tax": "70.05",
+    "total": "1036.25",
+    "line_items": [
+      {
+        "sku": "NWP-1111",
+        "description": "Bubble Mailer 10x13",
+        "quantity": 10,
+        "unit_price": "0.62",
+        "amount": "6.20"
+      },
+      {
+        "sku": "NWP-1074",
+        "description": "Packing Tape Case",
+        "quantity": 20,
+        "unit_price": "48.00",
+        "amount": "960.00"
+      }
+    ],
+    "file": "main_011.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000135",
+    "invoice_date": "2026-09-12",
+    "po_number": "PO-2026-0013",
+    "currency": "USD",
+    "subtotal": "27919.45",
+    "tax": "2477.85",
+    "total": "30397.30",
+    "line_items": [
+      {
+        "sku": "BOP-1037",
+        "description": "Ballpoint Pens Box",
+        "quantity": 50,
+        "unit_price": "6.49",
+        "amount": "324.50"
+      },
+      {
+        "sku": "BOP-1074",
+        "description": "Ergonomic Desk Chair",
+        "quantity": 60,
+        "unit_price": "219.00",
+        "amount": "13140.00"
+      },
+      {
+        "sku": "BOP-1111",
+        "description": "Whiteboard 4x6",
+        "quantity": 10,
+        "unit_price": "128.50",
+        "amount": "1285.00"
+      },
+      {
+        "sku": "BOP-1000",
+        "description": "Copy Paper Case",
+        "quantity": 5,
+        "unit_price": "44.99",
+        "amount": "224.95"
+      },
+      {
+        "sku": "BOP-1148",
+        "description": "Toner Cartridge Black",
+        "quantity": 150,
+        "unit_price": "86.30",
+        "amount": "12945.00"
+      }
+    ],
+    "file": "main_012.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "qty_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "QTY_EXCEEDS_PO"
+    ],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00884",
+    "invoice_date": "2026-09-01",
+    "po_number": "PO-2026-0014",
+    "currency": "USD",
+    "subtotal": "4235.50",
+    "tax": "0.00",
+    "total": "4235.50",
+    "line_items": [
+      {
+        "sku": "SSG-1111",
+        "description": "Cut Resistant Gloves",
+        "quantity": 20,
+        "unit_price": "11.40",
+        "amount": "228.00"
+      },
+      {
+        "sku": "SSG-1185",
+        "description": "First Aid Kit 50 Person",
+        "quantity": 50,
+        "unit_price": "74.95",
+        "amount": "3747.50"
+      },
+      {
+        "sku": "SSG-1148",
+        "description": "Ear Plugs Dispenser Refill",
+        "quantity": 5,
+        "unit_price": "52.00",
+        "amount": "260.00"
+      }
+    ],
+    "file": "main_013.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "qty_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "QTY_EXCEEDS_PO"
+    ],
+    "vendor_id": "V008",
+    "vendor_name": "Cobalt IT Hardware",
+    "invoice_number": "CIT-26-0260",
+    "invoice_date": "2026-09-08",
+    "po_number": "PO-2026-0015",
+    "currency": "USD",
+    "subtotal": "5621.00",
+    "tax": "463.73",
+    "total": "6084.73",
+    "line_items": [
+      {
+        "sku": "CIT-1111",
+        "description": "Cat6 Patch Cable 10ft",
+        "quantity": 20,
+        "unit_price": "4.25",
+        "amount": "85.00"
+      },
+      {
+        "sku": "CIT-1148",
+        "description": "Laptop Sleeve 15in",
+        "quantity": 24,
+        "unit_price": "18.50",
+        "amount": "444.00"
+      },
+      {
+        "sku": "CIT-1185",
+        "description": "Network Switch 24 Port",
+        "quantity": 23,
+        "unit_price": "189.00",
+        "amount": "4347.00"
+      },
+      {
+        "sku": "CIT-1000",
+        "description": "USB-C Dock",
+        "quantity": 5,
+        "unit_price": "149.00",
+        "amount": "745.00"
+      }
+    ],
+    "file": "main_014.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "unknown_po",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "UNKNOWN_PO"
+    ],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00761",
+    "invoice_date": "2026-09-16",
+    "po_number": "PO-2026-9240",
+    "currency": "USD",
+    "subtotal": "31288.40",
+    "tax": "2581.29",
+    "total": "33869.69",
+    "line_items": [
+      {
+        "sku": "ACM-1148",
+        "description": "Industrial Floor Mat",
+        "quantity": 12,
+        "unit_price": "56.20",
+        "amount": "674.40"
+      },
+      {
+        "sku": "ACM-1185",
+        "description": "Wire Bin Rack",
+        "quantity": 10,
+        "unit_price": "97.40",
+        "amount": "974.00"
+      },
+      {
+        "sku": "ACM-1037",
+        "description": "Pallet Jack Wheel Kit",
+        "quantity": 100,
+        "unit_price": "64.50",
+        "amount": "6450.00"
+      },
+      {
+        "sku": "ACM-1000",
+        "description": "Steel Shelving Unit 72in",
+        "quantity": 10,
+        "unit_price": "189.00",
+        "amount": "1890.00"
+      },
+      {
+        "sku": "ACM-1074",
+        "description": "Heavy Duty Hand Truck",
+        "quantity": 150,
+        "unit_price": "142.00",
+        "amount": "21300.00"
+      }
+    ],
+    "file": "main_015.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "partial",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00893",
+    "invoice_date": "2026-10-11",
+    "po_number": "PO-2026-0017",
+    "currency": "USD",
+    "subtotal": "3925.00",
+    "tax": "0.00",
+    "total": "3925.00",
+    "line_items": [
+      {
+        "sku": "SSG-1148",
+        "description": "Ear Plugs Dispenser Refill",
+        "quantity": 40,
+        "unit_price": "52.00",
+        "amount": "2080.00"
+      },
+      {
+        "sku": "SSG-1000",
+        "description": "Hard Hat Class E",
+        "quantity": 75,
+        "unit_price": "24.60",
+        "amount": "1845.00"
+      }
+    ],
+    "file": "main_016.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "price_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "PRICE_MISMATCH"
+    ],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00895",
+    "invoice_date": "2026-09-02",
+    "po_number": "PO-2026-0018",
+    "currency": "USD",
+    "subtotal": "3724.60",
+    "tax": "0.00",
+    "total": "3724.60",
+    "line_items": [
+      {
+        "sku": "SSG-1037",
+        "description": "Safety Glasses Clear",
+        "quantity": 150,
+        "unit_price": "4.10",
+        "amount": "615.00"
+      },
+      {
+        "sku": "SSG-1074",
+        "description": "Hi-Vis Vest Class 2",
+        "quantity": 150,
+        "unit_price": "9.85",
+        "amount": "1477.50"
+      },
+      {
+        "sku": "SSG-1111",
+        "description": "Cut Resistant Gloves",
+        "quantity": 24,
+        "unit_price": "11.40",
+        "amount": "273.60"
+      },
+      {
+        "sku": "SSG-1000",
+        "description": "Hard Hat Class E",
+        "quantity": 50,
+        "unit_price": "27.17",
+        "amount": "1358.50"
+      }
+    ],
+    "file": "main_017.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V002",
+    "vendor_name": "Northwind Packaging Co.",
+    "invoice_number": "NW-2026-0237",
+    "invoice_date": "2026-09-09",
+    "po_number": "PO-2026-0019",
+    "currency": "USD",
+    "subtotal": "2931.60",
+    "tax": "212.54",
+    "total": "3144.14",
+    "line_items": [
+      {
+        "sku": "NWP-1148",
+        "description": "Void Fill Paper Roll",
+        "quantity": 60,
+        "unit_price": "39.90",
+        "amount": "2394.00"
+      },
+      {
+        "sku": "NWP-1037",
+        "description": "Stretch Wrap Roll",
+        "quantity": 24,
+        "unit_price": "22.40",
+        "amount": "537.60"
+      }
+    ],
+    "file": "main_018.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "vendor_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "VENDOR_MISMATCH"
+    ],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00900",
+    "invoice_date": "2026-10-07",
+    "po_number": "PO-2026-0020",
+    "currency": "USD",
+    "subtotal": "2499.50",
+    "tax": "0.00",
+    "total": "2499.50",
+    "line_items": [
+      {
+        "sku": "SSG-1185",
+        "description": "First Aid Kit 50 Person",
+        "quantity": 10,
+        "unit_price": "74.95",
+        "amount": "749.50"
+      },
+      {
+        "sku": "SSG-1000",
+        "description": "Hard Hat Class E",
+        "quantity": 10,
+        "unit_price": "24.60",
+        "amount": "246.00"
+      },
+      {
+        "sku": "SSG-1037",
+        "description": "Safety Glasses Clear",
+        "quantity": 200,
+        "unit_price": "4.10",
+        "amount": "820.00"
+      },
+      {
+        "sku": "SSG-1111",
+        "description": "Cut Resistant Gloves",
+        "quantity": 60,
+        "unit_price": "11.40",
+        "amount": "684.00"
+      }
+    ],
+    "file": "main_019.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00905",
+    "invoice_date": "2026-09-06",
+    "po_number": "PO-2026-0022",
+    "currency": "USD",
+    "subtotal": "4827.00",
+    "tax": "0.00",
+    "total": "4827.00",
+    "line_items": [
+      {
+        "sku": "SSG-1037",
+        "description": "Safety Glasses Clear",
+        "quantity": 5,
+        "unit_price": "4.10",
+        "amount": "20.50"
+      },
+      {
+        "sku": "SSG-1074",
+        "description": "Hi-Vis Vest Class 2",
+        "quantity": 10,
+        "unit_price": "9.85",
+        "amount": "98.50"
+      },
+      {
+        "sku": "SSG-1111",
+        "description": "Cut Resistant Gloves",
+        "quantity": 150,
+        "unit_price": "11.40",
+        "amount": "1710.00"
+      },
+      {
+        "sku": "SSG-1185",
+        "description": "First Aid Kit 50 Person",
+        "quantity": 40,
+        "unit_price": "74.95",
+        "amount": "2998.00"
+      }
+    ],
+    "file": "main_020.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00762",
+    "invoice_date": "2026-09-15",
+    "po_number": "PO-2026-0023",
+    "currency": "USD",
+    "subtotal": "33473.00",
+    "tax": "2761.52",
+    "total": "36234.52",
+    "line_items": [
+      {
+        "sku": "ACM-1037",
+        "description": "Pallet Jack Wheel Kit",
+        "quantity": 50,
+        "unit_price": "64.50",
+        "amount": "3225.00"
+      },
+      {
+        "sku": "ACM-1074",
+        "description": "Heavy Duty Hand Truck",
+        "quantity": 60,
+        "unit_price": "142.00",
+        "amount": "8520.00"
+      },
+      {
+        "sku": "ACM-1185",
+        "description": "Wire Bin Rack",
+        "quantity": 200,
+        "unit_price": "97.40",
+        "amount": "19480.00"
+      },
+      {
+        "sku": "ACM-1148",
+        "description": "Industrial Floor Mat",
+        "quantity": 40,
+        "unit_price": "56.20",
+        "amount": "2248.00"
+      }
+    ],
+    "file": "main_021.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V002",
+    "vendor_name": "Northwind Packaging Co.",
+    "invoice_number": "NW-2026-0240",
+    "invoice_date": "2026-09-06",
+    "po_number": "PO-2026-0024",
+    "currency": "USD",
+    "subtotal": "4677.00",
+    "tax": "339.08",
+    "total": "5016.08",
+    "line_items": [
+      {
+        "sku": "NWP-1148",
+        "description": "Void Fill Paper Roll",
+        "quantity": 100,
+        "unit_price": "39.90",
+        "amount": "3990.00"
+      },
+      {
+        "sku": "NWP-1000",
+        "description": "Corrugated Box 18x12x12",
+        "quantity": 60,
+        "unit_price": "1.85",
+        "amount": "111.00"
+      },
+      {
+        "sku": "NWP-1074",
+        "description": "Packing Tape Case",
+        "quantity": 12,
+        "unit_price": "48.00",
+        "amount": "576.00"
+      }
+    ],
+    "file": "main_022.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V005",
+    "vendor_name": "Harbor Electrical Wholesale",
+    "invoice_number": "HEW-00390",
+    "invoice_date": "2026-10-23",
+    "po_number": "PO-2026-0025",
+    "currency": "USD",
+    "subtotal": "5952.50",
+    "tax": "491.08",
+    "total": "6443.58",
+    "line_items": [
+      {
+        "sku": "HEW-1000",
+        "description": "THHN Wire 12 AWG Spool",
+        "quantity": 20,
+        "unit_price": "118.00",
+        "amount": "2360.00"
+      },
+      {
+        "sku": "HEW-1074",
+        "description": "GFCI Outlet 20A",
+        "quantity": 150,
+        "unit_price": "17.90",
+        "amount": "2685.00"
+      },
+      {
+        "sku": "HEW-1037",
+        "description": "LED Panel Light 2x4",
+        "quantity": 10,
+        "unit_price": "62.75",
+        "amount": "627.50"
+      },
+      {
+        "sku": "HEW-1148",
+        "description": "Breaker 20A Single Pole",
+        "quantity": 25,
+        "unit_price": "11.20",
+        "amount": "280.00"
+      }
+    ],
+    "file": "main_023.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000141",
+    "invoice_date": "2026-10-23",
+    "po_number": "PO-2026-0026",
+    "currency": "USD",
+    "subtotal": "25903.45",
+    "tax": "2298.93",
+    "total": "28202.38",
+    "line_items": [
+      {
+        "sku": "BOP-1037",
+        "description": "Ballpoint Pens Box",
+        "quantity": 5,
+        "unit_price": "6.49",
+        "amount": "32.45"
+      },
+      {
+        "sku": "BOP-1185",
+        "description": "File Folders Box",
+        "quantity": 12,
+        "unit_price": "14.25",
+        "amount": "171.00"
+      },
+      {
+        "sku": "BOP-1111",
+        "description": "Whiteboard 4x6",
+        "quantity": 200,
+        "unit_price": "128.50",
+        "amount": "25700.00"
+      }
+    ],
+    "file": "main_024.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "totals_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "TOTALS_MISMATCH"
+    ],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00910",
+    "invoice_date": "2026-09-30",
+    "po_number": "PO-2026-0027",
+    "currency": "USD",
+    "subtotal": "3525.00",
+    "tax": "0.00",
+    "total": "3592.00",
+    "line_items": [
+      {
+        "sku": "SSG-1037",
+        "description": "Safety Glasses Clear",
+        "quantity": 50,
+        "unit_price": "4.10",
+        "amount": "205.00"
+      },
+      {
+        "sku": "SSG-1000",
+        "description": "Hard Hat Class E",
+        "quantity": 20,
+        "unit_price": "24.60",
+        "amount": "492.00"
+      },
+      {
+        "sku": "SSG-1111",
+        "description": "Cut Resistant Gloves",
+        "quantity": 20,
+        "unit_price": "11.40",
+        "amount": "228.00"
+      },
+      {
+        "sku": "SSG-1148",
+        "description": "Ear Plugs Dispenser Refill",
+        "quantity": 50,
+        "unit_price": "52.00",
+        "amount": "2600.00"
+      }
+    ],
+    "file": "main_025.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "price_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "PRICE_MISMATCH"
+    ],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00771",
+    "invoice_date": "2026-10-22",
+    "po_number": "PO-2026-0028",
+    "currency": "USD",
+    "subtotal": "5208.00",
+    "tax": "429.66",
+    "total": "5637.66",
+    "line_items": [
+      {
+        "sku": "ACM-1111",
+        "description": "Shop Vacuum Filter",
+        "quantity": 10,
+        "unit_price": "18.75",
+        "amount": "187.50"
+      },
+      {
+        "sku": "ACM-1074",
+        "description": "Heavy Duty Hand Truck",
+        "quantity": 24,
+        "unit_price": "142.00",
+        "amount": "3408.00"
+      },
+      {
+        "sku": "ACM-1148",
+        "description": "Industrial Floor Mat",
+        "quantity": 25,
+        "unit_price": "64.50",
+        "amount": "1612.50"
+      }
+    ],
+    "file": "main_026.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "totals_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "TOTALS_MISMATCH"
+    ],
+    "vendor_id": "V006",
+    "vendor_name": "Pinecrest Janitorial Supplies",
+    "invoice_number": "PJ-0351",
+    "invoice_date": "2026-09-14",
+    "po_number": "PO-2026-0029",
+    "currency": "USD",
+    "subtotal": "1157.00",
+    "tax": "83.88",
+    "total": "1402.88",
+    "line_items": [
+      {
+        "sku": "PJS-1000",
+        "description": "Trash Liner Case",
+        "quantity": 12,
+        "unit_price": "38.50",
+        "amount": "462.00"
+      },
+      {
+        "sku": "PJS-1074",
+        "description": "Microfiber Mop Head",
+        "quantity": 100,
+        "unit_price": "6.95",
+        "amount": "695.00"
+      }
+    ],
+    "file": "main_027.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000349",
+    "invoice_date": "2026-09-06",
+    "po_number": "PO-2026-0030",
+    "currency": "USD",
+    "subtotal": "3019.50",
+    "tax": "181.17",
+    "total": "3200.67",
+    "line_items": [
+      {
+        "sku": "RLF-1185",
+        "description": "Rivet Box 250",
+        "quantity": 60,
+        "unit_price": "16.90",
+        "amount": "1014.00"
+      },
+      {
+        "sku": "RLF-1074",
+        "description": "Anchor Kit Concrete",
+        "quantity": 10,
+        "unit_price": "33.15",
+        "amount": "331.50"
+      },
+      {
+        "sku": "RLF-1111",
+        "description": "Machine Screw Assortment",
+        "quantity": 40,
+        "unit_price": "27.60",
+        "amount": "1104.00"
+      },
+      {
+        "sku": "RLF-1148",
+        "description": "Threaded Rod 3ft",
+        "quantity": 100,
+        "unit_price": "5.70",
+        "amount": "570.00"
+      }
+    ],
+    "file": "main_028.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "unreadable",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "UNREADABLE"
+    ],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000353",
+    "invoice_date": "2026-10-17",
+    "po_number": "PO-2026-0031",
+    "currency": "USD",
+    "subtotal": "4235.00",
+    "tax": "254.10",
+    "total": "4489.10",
+    "line_items": [
+      {
+        "sku": "RLF-1148",
+        "description": "Threaded Rod 3ft",
+        "quantity": 150,
+        "unit_price": "5.70",
+        "amount": "855.00"
+      },
+      {
+        "sku": "RLF-1185",
+        "description": "Rivet Box 250",
+        "quantity": 200,
+        "unit_price": "16.90",
+        "amount": "3380.00"
+      }
+    ],
+    "file": "main_029.pdf",
+    "layout": "scan"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000355",
+    "invoice_date": "2026-10-09",
+    "po_number": "PO-2026-0032",
+    "currency": "USD",
+    "subtotal": "2518.75",
+    "tax": "151.13",
+    "total": "2669.88",
+    "line_items": [
+      {
+        "sku": "RLF-1185",
+        "description": "Rivet Box 250",
+        "quantity": 100,
+        "unit_price": "16.90",
+        "amount": "1690.00"
+      },
+      {
+        "sku": "RLF-1074",
+        "description": "Anchor Kit Concrete",
+        "quantity": 25,
+        "unit_price": "33.15",
+        "amount": "828.75"
+      }
+    ],
+    "file": "main_030.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V005",
+    "vendor_name": "Harbor Electrical Wholesale",
+    "invoice_number": "HEW-00393",
+    "invoice_date": "2026-11-12",
+    "po_number": "PO-2026-0033",
+    "currency": "USD",
+    "subtotal": "19391.50",
+    "tax": "1599.80",
+    "total": "20991.30",
+    "line_items": [
+      {
+        "sku": "HEW-1074",
+        "description": "GFCI Outlet 20A",
+        "quantity": 20,
+        "unit_price": "17.90",
+        "amount": "358.00"
+      },
+      {
+        "sku": "HEW-1111",
+        "description": "Conduit EMT 10ft",
+        "quantity": 40,
+        "unit_price": "8.45",
+        "amount": "338.00"
+      },
+      {
+        "sku": "HEW-1185",
+        "description": "Junction Box Steel",
+        "quantity": 150,
+        "unit_price": "3.65",
+        "amount": "547.50"
+      },
+      {
+        "sku": "HEW-1148",
+        "description": "Breaker 20A Single Pole",
+        "quantity": 40,
+        "unit_price": "11.20",
+        "amount": "448.00"
+      },
+      {
+        "sku": "HEW-1000",
+        "description": "THHN Wire 12 AWG Spool",
+        "quantity": 150,
+        "unit_price": "118.00",
+        "amount": "17700.00"
+      }
+    ],
+    "file": "main_031.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "price_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "PRICE_MISMATCH"
+    ],
+    "vendor_id": "V005",
+    "vendor_name": "Harbor Electrical Wholesale",
+    "invoice_number": "HEW-00401",
+    "invoice_date": "2026-10-27",
+    "po_number": "PO-2026-0034",
+    "currency": "USD",
+    "subtotal": "24619.75",
+    "tax": "2031.13",
+    "total": "26650.88",
+    "line_items": [
+      {
+        "sku": "HEW-1148",
+        "description": "Breaker 20A Single Pole",
+        "quantity": 40,
+        "unit_price": "11.20",
+        "amount": "448.00"
+      },
+      {
+        "sku": "HEW-1000",
+        "description": "THHN Wire 12 AWG Spool",
+        "quantity": 100,
+        "unit_price": "128.78",
+        "amount": "12878.00"
+      },
+      {
+        "sku": "HEW-1074",
+        "description": "GFCI Outlet 20A",
+        "quantity": 100,
+        "unit_price": "17.90",
+        "amount": "1790.00"
+      },
+      {
+        "sku": "HEW-1037",
+        "description": "LED Panel Light 2x4",
+        "quantity": 150,
+        "unit_price": "62.75",
+        "amount": "9412.50"
+      },
+      {
+        "sku": "HEW-1185",
+        "description": "Junction Box Steel",
+        "quantity": 25,
+        "unit_price": "3.65",
+        "amount": "91.25"
+      }
+    ],
+    "file": "main_032.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "qty_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "QTY_EXCEEDS_PO"
+    ],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000147",
+    "invoice_date": "2026-09-12",
+    "po_number": "PO-2026-0035",
+    "currency": "USD",
+    "subtotal": "48204.00",
+    "tax": "4278.11",
+    "total": "52482.11",
+    "line_items": [
+      {
+        "sku": "BOP-1074",
+        "description": "Ergonomic Desk Chair",
+        "quantity": 161,
+        "unit_price": "219.00",
+        "amount": "35259.00"
+      },
+      {
+        "sku": "BOP-1148",
+        "description": "Toner Cartridge Black",
+        "quantity": 150,
+        "unit_price": "86.30",
+        "amount": "12945.00"
+      }
+    ],
+    "file": "main_033.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "missing_po",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "MISSING_PO"
+    ],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00912",
+    "invoice_date": "2026-10-29",
+    "po_number": null,
+    "currency": "USD",
+    "subtotal": "6512.00",
+    "tax": "0.00",
+    "total": "6512.00",
+    "line_items": [
+      {
+        "sku": "SSG-1037",
+        "description": "Safety Glasses Clear",
+        "quantity": 20,
+        "unit_price": "4.10",
+        "amount": "82.00"
+      },
+      {
+        "sku": "SSG-1000",
+        "description": "Hard Hat Class E",
+        "quantity": 50,
+        "unit_price": "24.60",
+        "amount": "1230.00"
+      },
+      {
+        "sku": "SSG-1148",
+        "description": "Ear Plugs Dispenser Refill",
+        "quantity": 100,
+        "unit_price": "52.00",
+        "amount": "5200.00"
+      }
+    ],
+    "file": "main_034.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "unknown_po",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "UNKNOWN_PO"
+    ],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000356",
+    "invoice_date": "2026-09-14",
+    "po_number": "PO-2026-9704",
+    "currency": "USD",
+    "subtotal": "1296.40",
+    "tax": "77.78",
+    "total": "1374.18",
+    "line_items": [
+      {
+        "sku": "RLF-1185",
+        "description": "Rivet Box 250",
+        "quantity": 40,
+        "unit_price": "16.90",
+        "amount": "676.00"
+      },
+      {
+        "sku": "RLF-1111",
+        "description": "Machine Screw Assortment",
+        "quantity": 20,
+        "unit_price": "27.60",
+        "amount": "552.00"
+      },
+      {
+        "sku": "RLF-1148",
+        "description": "Threaded Rod 3ft",
+        "quantity": 12,
+        "unit_price": "5.70",
+        "amount": "68.40"
+      }
+    ],
+    "file": "main_035.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "partial",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000358",
+    "invoice_date": "2026-10-29",
+    "po_number": "PO-2026-0038",
+    "currency": "USD",
+    "subtotal": "406.00",
+    "tax": "24.36",
+    "total": "430.36",
+    "line_items": [
+      {
+        "sku": "RLF-1037",
+        "description": "Lock Washer Box 500",
+        "quantity": 5,
+        "unit_price": "12.80",
+        "amount": "64.00"
+      },
+      {
+        "sku": "RLF-1148",
+        "description": "Threaded Rod 3ft",
+        "quantity": 60,
+        "unit_price": "5.70",
+        "amount": "342.00"
+      }
+    ],
+    "file": "main_036.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V008",
+    "vendor_name": "Cobalt IT Hardware",
+    "invoice_number": "CIT-26-0265",
+    "invoice_date": "2026-10-02",
+    "po_number": "PO-2026-0039",
+    "currency": "USD",
+    "subtotal": "40234.00",
+    "tax": "3319.31",
+    "total": "43553.31",
+    "line_items": [
+      {
+        "sku": "CIT-1111",
+        "description": "Cat6 Patch Cable 10ft",
+        "quantity": 50,
+        "unit_price": "4.25",
+        "amount": "212.50"
+      },
+      {
+        "sku": "CIT-1148",
+        "description": "Laptop Sleeve 15in",
+        "quantity": 12,
+        "unit_price": "18.50",
+        "amount": "222.00"
+      },
+      {
+        "sku": "CIT-1185",
+        "description": "Network Switch 24 Port",
+        "quantity": 200,
+        "unit_price": "189.00",
+        "amount": "37800.00"
+      },
+      {
+        "sku": "CIT-1074",
+        "description": "Wireless Keyboard",
+        "quantity": 50,
+        "unit_price": "39.99",
+        "amount": "1999.50"
+      }
+    ],
+    "file": "main_037.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "price_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "PRICE_MISMATCH"
+    ],
+    "vendor_id": "V005",
+    "vendor_name": "Harbor Electrical Wholesale",
+    "invoice_number": "HEW-00410",
+    "invoice_date": "2026-09-11",
+    "po_number": "PO-2026-0040",
+    "currency": "USD",
+    "subtotal": "5885.28",
+    "tax": "485.54",
+    "total": "6370.82",
+    "line_items": [
+      {
+        "sku": "HEW-1185",
+        "description": "Junction Box Steel",
+        "quantity": 200,
+        "unit_price": "3.65",
+        "amount": "730.00"
+      },
+      {
+        "sku": "HEW-1037",
+        "description": "LED Panel Light 2x4",
+        "quantity": 24,
+        "unit_price": "65.77",
+        "amount": "1578.48"
+      },
+      {
+        "sku": "HEW-1074",
+        "description": "GFCI Outlet 20A",
+        "quantity": 20,
+        "unit_price": "17.90",
+        "amount": "358.00"
+      },
+      {
+        "sku": "HEW-1148",
+        "description": "Breaker 20A Single Pole",
+        "quantity": 24,
+        "unit_price": "11.20",
+        "amount": "268.80"
+      },
+      {
+        "sku": "HEW-1000",
+        "description": "THHN Wire 12 AWG Spool",
+        "quantity": 25,
+        "unit_price": "118.00",
+        "amount": "2950.00"
+      }
+    ],
+    "file": "main_038.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "unreadable",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "UNREADABLE"
+    ],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000366",
+    "invoice_date": "2026-10-24",
+    "po_number": "PO-2026-0041",
+    "currency": "USD",
+    "subtotal": "1720.50",
+    "tax": "103.23",
+    "total": "1823.73",
+    "line_items": [
+      {
+        "sku": "RLF-1185",
+        "description": "Rivet Box 250",
+        "quantity": 40,
+        "unit_price": "16.90",
+        "amount": "676.00"
+      },
+      {
+        "sku": "RLF-1037",
+        "description": "Lock Washer Box 500",
+        "quantity": 40,
+        "unit_price": "12.80",
+        "amount": "512.00"
+      },
+      {
+        "sku": "RLF-1000",
+        "description": "Hex Bolt Box 100",
+        "quantity": 25,
+        "unit_price": "21.30",
+        "amount": "532.50"
+      }
+    ],
+    "file": "main_039.pdf",
+    "layout": "scan"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00777",
+    "invoice_date": "2026-10-09",
+    "po_number": "PO-2026-0042",
+    "currency": "USD",
+    "subtotal": "15221.00",
+    "tax": "1255.73",
+    "total": "16476.73",
+    "line_items": [
+      {
+        "sku": "ACM-1111",
+        "description": "Shop Vacuum Filter",
+        "quantity": 100,
+        "unit_price": "18.75",
+        "amount": "1875.00"
+      },
+      {
+        "sku": "ACM-1185",
+        "description": "Wire Bin Rack",
+        "quantity": 40,
+        "unit_price": "97.40",
+        "amount": "3896.00"
+      },
+      {
+        "sku": "ACM-1000",
+        "description": "Steel Shelving Unit 72in",
+        "quantity": 50,
+        "unit_price": "189.00",
+        "amount": "9450.00"
+      }
+    ],
+    "file": "main_040.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000373",
+    "invoice_date": "2026-09-22",
+    "po_number": "PO-2026-0043",
+    "currency": "USD",
+    "subtotal": "2442.80",
+    "tax": "146.57",
+    "total": "2589.37",
+    "line_items": [
+      {
+        "sku": "RLF-1148",
+        "description": "Threaded Rod 3ft",
+        "quantity": 24,
+        "unit_price": "5.70",
+        "amount": "136.80"
+      },
+      {
+        "sku": "RLF-1185",
+        "description": "Rivet Box 250",
+        "quantity": 40,
+        "unit_price": "16.90",
+        "amount": "676.00"
+      },
+      {
+        "sku": "RLF-1037",
+        "description": "Lock Washer Box 500",
+        "quantity": 50,
+        "unit_price": "12.80",
+        "amount": "640.00"
+      },
+      {
+        "sku": "RLF-1111",
+        "description": "Machine Screw Assortment",
+        "quantity": 5,
+        "unit_price": "27.60",
+        "amount": "138.00"
+      },
+      {
+        "sku": "RLF-1000",
+        "description": "Hex Bolt Box 100",
+        "quantity": 40,
+        "unit_price": "21.30",
+        "amount": "852.00"
+      }
+    ],
+    "file": "main_041.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V008",
+    "vendor_name": "Cobalt IT Hardware",
+    "invoice_number": "CIT-26-0266",
+    "invoice_date": "2026-09-11",
+    "po_number": "PO-2026-0044",
+    "currency": "USD",
+    "subtotal": "34540.00",
+    "tax": "2849.55",
+    "total": "37389.55",
+    "line_items": [
+      {
+        "sku": "CIT-1148",
+        "description": "Laptop Sleeve 15in",
+        "quantity": 40,
+        "unit_price": "18.50",
+        "amount": "740.00"
+      },
+      {
+        "sku": "CIT-1185",
+        "description": "Network Switch 24 Port",
+        "quantity": 100,
+        "unit_price": "189.00",
+        "amount": "18900.00"
+      },
+      {
+        "sku": "CIT-1000",
+        "description": "USB-C Dock",
+        "quantity": 100,
+        "unit_price": "149.00",
+        "amount": "14900.00"
+      }
+    ],
+    "file": "main_042.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000381",
+    "invoice_date": "2026-10-12",
+    "po_number": "PO-2026-0045",
+    "currency": "USD",
+    "subtotal": "1706.90",
+    "tax": "102.41",
+    "total": "1809.31",
+    "line_items": [
+      {
+        "sku": "RLF-1111",
+        "description": "Machine Screw Assortment",
+        "quantity": 24,
+        "unit_price": "27.60",
+        "amount": "662.40"
+      },
+      {
+        "sku": "RLF-1037",
+        "description": "Lock Washer Box 500",
+        "quantity": 40,
+        "unit_price": "12.80",
+        "amount": "512.00"
+      },
+      {
+        "sku": "RLF-1000",
+        "description": "Hex Bolt Box 100",
+        "quantity": 25,
+        "unit_price": "21.30",
+        "amount": "532.50"
+      }
+    ],
+    "file": "main_043.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "partial",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V006",
+    "vendor_name": "Pinecrest Janitorial Supplies",
+    "invoice_number": "PJ-0353",
+    "invoice_date": "2026-09-06",
+    "po_number": "PO-2026-0046",
+    "currency": "USD",
+    "subtotal": "9322.25",
+    "tax": "675.86",
+    "total": "9998.11",
+    "line_items": [
+      {
+        "sku": "PJS-1074",
+        "description": "Microfiber Mop Head",
+        "quantity": 5,
+        "unit_price": "6.95",
+        "amount": "34.75"
+      },
+      {
+        "sku": "PJS-1111",
+        "description": "Paper Towel Case",
+        "quantity": 100,
+        "unit_price": "45.60",
+        "amount": "4560.00"
+      },
+      {
+        "sku": "PJS-1185",
+        "description": "Disinfectant Spray Case",
+        "quantity": 60,
+        "unit_price": "64.00",
+        "amount": "3840.00"
+      },
+      {
+        "sku": "PJS-1000",
+        "description": "Trash Liner Case",
+        "quantity": 5,
+        "unit_price": "38.50",
+        "amount": "192.50"
+      },
+      {
+        "sku": "PJS-1037",
+        "description": "Floor Cleaner Concentrate",
+        "quantity": 25,
+        "unit_price": "27.80",
+        "amount": "695.00"
+      }
+    ],
+    "file": "main_044.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00914",
+    "invoice_date": "2026-11-12",
+    "po_number": "PO-2026-0047",
+    "currency": "USD",
+    "subtotal": "1089.20",
+    "tax": "0.00",
+    "total": "1089.20",
+    "line_items": [
+      {
+        "sku": "SSG-1148",
+        "description": "Ear Plugs Dispenser Refill",
+        "quantity": 20,
+        "unit_price": "52.00",
+        "amount": "1040.00"
+      },
+      {
+        "sku": "SSG-1037",
+        "description": "Safety Glasses Clear",
+        "quantity": 12,
+        "unit_price": "4.10",
+        "amount": "49.20"
+      }
+    ],
+    "file": "main_045.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "missing_po",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "MISSING_PO"
+    ],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00919",
+    "invoice_date": "2026-11-13",
+    "po_number": null,
+    "currency": "USD",
+    "subtotal": "4172.80",
+    "tax": "0.00",
+    "total": "4172.80",
+    "line_items": [
+      {
+        "sku": "SSG-1185",
+        "description": "First Aid Kit 50 Person",
+        "quantity": 12,
+        "unit_price": "74.95",
+        "amount": "899.40"
+      },
+      {
+        "sku": "SSG-1074",
+        "description": "Hi-Vis Vest Class 2",
+        "quantity": 24,
+        "unit_price": "9.85",
+        "amount": "236.40"
+      },
+      {
+        "sku": "SSG-1148",
+        "description": "Ear Plugs Dispenser Refill",
+        "quantity": 10,
+        "unit_price": "52.00",
+        "amount": "520.00"
+      },
+      {
+        "sku": "SSG-1000",
+        "description": "Hard Hat Class E",
+        "quantity": 100,
+        "unit_price": "24.60",
+        "amount": "2460.00"
+      },
+      {
+        "sku": "SSG-1111",
+        "description": "Cut Resistant Gloves",
+        "quantity": 5,
+        "unit_price": "11.40",
+        "amount": "57.00"
+      }
+    ],
+    "file": "main_046.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "qty_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "QTY_EXCEEDS_PO"
+    ],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000383",
+    "invoice_date": "2026-11-12",
+    "po_number": "PO-2026-0049",
+    "currency": "USD",
+    "subtotal": "11192.40",
+    "tax": "671.54",
+    "total": "11863.94",
+    "line_items": [
+      {
+        "sku": "RLF-1185",
+        "description": "Rivet Box 250",
+        "quantity": 23,
+        "unit_price": "16.90",
+        "amount": "388.70"
+      },
+      {
+        "sku": "RLF-1037",
+        "description": "Lock Washer Box 500",
+        "quantity": 200,
+        "unit_price": "12.80",
+        "amount": "2560.00"
+      },
+      {
+        "sku": "RLF-1000",
+        "description": "Hex Bolt Box 100",
+        "quantity": 24,
+        "unit_price": "21.30",
+        "amount": "511.20"
+      },
+      {
+        "sku": "RLF-1074",
+        "description": "Anchor Kit Concrete",
+        "quantity": 150,
+        "unit_price": "33.15",
+        "amount": "4972.50"
+      },
+      {
+        "sku": "RLF-1111",
+        "description": "Machine Screw Assortment",
+        "quantity": 100,
+        "unit_price": "27.60",
+        "amount": "2760.00"
+      }
+    ],
+    "file": "main_047.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "qty_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "QTY_EXCEEDS_PO"
+    ],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000391",
+    "invoice_date": "2026-09-20",
+    "po_number": "PO-2026-0050",
+    "currency": "USD",
+    "subtotal": "2262.80",
+    "tax": "135.77",
+    "total": "2398.57",
+    "line_items": [
+      {
+        "sku": "RLF-1000",
+        "description": "Hex Bolt Box 100",
+        "quantity": 40,
+        "unit_price": "21.30",
+        "amount": "852.00"
+      },
+      {
+        "sku": "RLF-1148",
+        "description": "Threaded Rod 3ft",
+        "quantity": 50,
+        "unit_price": "5.70",
+        "amount": "285.00"
+      },
+      {
+        "sku": "RLF-1074",
+        "description": "Anchor Kit Concrete",
+        "quantity": 10,
+        "unit_price": "33.15",
+        "amount": "331.50"
+      },
+      {
+        "sku": "RLF-1185",
+        "description": "Rivet Box 250",
+        "quantity": 47,
+        "unit_price": "16.90",
+        "amount": "794.30"
+      }
+    ],
+    "file": "main_048.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V005",
+    "vendor_name": "Harbor Electrical Wholesale",
+    "invoice_number": "HEW-00417",
+    "invoice_date": "2026-10-14",
+    "po_number": "PO-2026-0051",
+    "currency": "USD",
+    "subtotal": "8222.10",
+    "tax": "678.32",
+    "total": "8900.42",
+    "line_items": [
+      {
+        "sku": "HEW-1111",
+        "description": "Conduit EMT 10ft",
+        "quantity": 10,
+        "unit_price": "8.45",
+        "amount": "84.50"
+      },
+      {
+        "sku": "HEW-1185",
+        "description": "Junction Box Steel",
+        "quantity": 24,
+        "unit_price": "3.65",
+        "amount": "87.60"
+      },
+      {
+        "sku": "HEW-1074",
+        "description": "GFCI Outlet 20A",
+        "quantity": 50,
+        "unit_price": "17.90",
+        "amount": "895.00"
+      },
+      {
+        "sku": "HEW-1037",
+        "description": "LED Panel Light 2x4",
+        "quantity": 20,
+        "unit_price": "62.75",
+        "amount": "1255.00"
+      },
+      {
+        "sku": "HEW-1000",
+        "description": "THHN Wire 12 AWG Spool",
+        "quantity": 50,
+        "unit_price": "118.00",
+        "amount": "5900.00"
+      }
+    ],
+    "file": "main_049.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00782",
+    "invoice_date": "2026-11-11",
+    "po_number": "PO-2026-0052",
+    "currency": "USD",
+    "subtotal": "35610.50",
+    "tax": "2937.87",
+    "total": "38548.37",
+    "line_items": [
+      {
+        "sku": "ACM-1074",
+        "description": "Heavy Duty Hand Truck",
+        "quantity": 24,
+        "unit_price": "142.00",
+        "amount": "3408.00"
+      },
+      {
+        "sku": "ACM-1037",
+        "description": "Pallet Jack Wheel Kit",
+        "quantity": 25,
+        "unit_price": "64.50",
+        "amount": "1612.50"
+      },
+      {
+        "sku": "ACM-1111",
+        "description": "Shop Vacuum Filter",
+        "quantity": 24,
+        "unit_price": "18.75",
+        "amount": "450.00"
+      },
+      {
+        "sku": "ACM-1000",
+        "description": "Steel Shelving Unit 72in",
+        "quantity": 100,
+        "unit_price": "189.00",
+        "amount": "18900.00"
+      },
+      {
+        "sku": "ACM-1148",
+        "description": "Industrial Floor Mat",
+        "quantity": 200,
+        "unit_price": "56.20",
+        "amount": "11240.00"
+      }
+    ],
+    "file": "main_050.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "totals_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "TOTALS_MISMATCH"
+    ],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00790",
+    "invoice_date": "2026-11-02",
+    "po_number": "PO-2026-0053",
+    "currency": "USD",
+    "subtotal": "13695.00",
+    "tax": "1129.84",
+    "total": "14948.84",
+    "line_items": [
+      {
+        "sku": "ACM-1000",
+        "description": "Steel Shelving Unit 72in",
+        "quantity": 50,
+        "unit_price": "189.00",
+        "amount": "9450.00"
+      },
+      {
+        "sku": "ACM-1037",
+        "description": "Pallet Jack Wheel Kit",
+        "quantity": 60,
+        "unit_price": "64.50",
+        "amount": "3870.00"
+      },
+      {
+        "sku": "ACM-1111",
+        "description": "Shop Vacuum Filter",
+        "quantity": 20,
+        "unit_price": "18.75",
+        "amount": "375.00"
+      }
+    ],
+    "file": "main_051.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "price_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "PRICE_MISMATCH"
+    ],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00795",
+    "invoice_date": "2026-11-14",
+    "po_number": "PO-2026-0054",
+    "currency": "USD",
+    "subtotal": "19700.00",
+    "tax": "1625.25",
+    "total": "21325.25",
+    "line_items": [
+      {
+        "sku": "ACM-1074",
+        "description": "Heavy Duty Hand Truck",
+        "quantity": 40,
+        "unit_price": "142.00",
+        "amount": "5680.00"
+      },
+      {
+        "sku": "ACM-1037",
+        "description": "Pallet Jack Wheel Kit",
+        "quantity": 200,
+        "unit_price": "70.10",
+        "amount": "14020.00"
+      }
+    ],
+    "file": "main_052.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V006",
+    "vendor_name": "Pinecrest Janitorial Supplies",
+    "invoice_number": "PJ-0357",
+    "invoice_date": "2026-10-11",
+    "po_number": "PO-2026-0055",
+    "currency": "USD",
+    "subtotal": "3180.40",
+    "tax": "230.58",
+    "total": "3410.98",
+    "line_items": [
+      {
+        "sku": "PJS-1185",
+        "description": "Disinfectant Spray Case",
+        "quantity": 24,
+        "unit_price": "64.00",
+        "amount": "1536.00"
+      },
+      {
+        "sku": "PJS-1148",
+        "description": "Hand Soap Refill",
+        "quantity": 24,
+        "unit_price": "19.40",
+        "amount": "465.60"
+      },
+      {
+        "sku": "PJS-1074",
+        "description": "Microfiber Mop Head",
+        "quantity": 24,
+        "unit_price": "6.95",
+        "amount": "166.80"
+      },
+      {
+        "sku": "PJS-1037",
+        "description": "Floor Cleaner Concentrate",
+        "quantity": 20,
+        "unit_price": "27.80",
+        "amount": "556.00"
+      },
+      {
+        "sku": "PJS-1111",
+        "description": "Paper Towel Case",
+        "quantity": 10,
+        "unit_price": "45.60",
+        "amount": "456.00"
+      }
+    ],
+    "file": "main_053.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "price_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "PRICE_MISMATCH"
+    ],
+    "vendor_id": "V002",
+    "vendor_name": "Northwind Packaging Co.",
+    "invoice_number": "NW-2026-0249",
+    "invoice_date": "2026-10-07",
+    "po_number": "PO-2026-0056",
+    "currency": "USD",
+    "subtotal": "859.44",
+    "tax": "62.31",
+    "total": "921.75",
+    "line_items": [
+      {
+        "sku": "NWP-1037",
+        "description": "Stretch Wrap Roll",
+        "quantity": 24,
+        "unit_price": "25.31",
+        "amount": "607.44"
+      },
+      {
+        "sku": "NWP-1185",
+        "description": "Pallet Corner Board",
+        "quantity": 200,
+        "unit_price": "0.95",
+        "amount": "190.00"
+      },
+      {
+        "sku": "NWP-1111",
+        "description": "Bubble Mailer 10x13",
+        "quantity": 100,
+        "unit_price": "0.62",
+        "amount": "62.00"
+      }
+    ],
+    "file": "main_054.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V005",
+    "vendor_name": "Harbor Electrical Wholesale",
+    "invoice_number": "HEW-00422",
+    "invoice_date": "2026-09-06",
+    "po_number": "PO-2026-0057",
+    "currency": "USD",
+    "subtotal": "12858.50",
+    "tax": "1060.83",
+    "total": "13919.33",
+    "line_items": [
+      {
+        "sku": "HEW-1074",
+        "description": "GFCI Outlet 20A",
+        "quantity": 5,
+        "unit_price": "17.90",
+        "amount": "89.50"
+      },
+      {
+        "sku": "HEW-1037",
+        "description": "LED Panel Light 2x4",
+        "quantity": 200,
+        "unit_price": "62.75",
+        "amount": "12550.00"
+      },
+      {
+        "sku": "HEW-1185",
+        "description": "Junction Box Steel",
+        "quantity": 60,
+        "unit_price": "3.65",
+        "amount": "219.00"
+      }
+    ],
+    "file": "main_055.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00803",
+    "invoice_date": "2026-10-14",
+    "po_number": "PO-2026-0058",
+    "currency": "USD",
+    "subtotal": "16837.00",
+    "tax": "1389.05",
+    "total": "18226.05",
+    "line_items": [
+      {
+        "sku": "ACM-1185",
+        "description": "Wire Bin Rack",
+        "quantity": 5,
+        "unit_price": "97.40",
+        "amount": "487.00"
+      },
+      {
+        "sku": "ACM-1037",
+        "description": "Pallet Jack Wheel Kit",
+        "quantity": 100,
+        "unit_price": "64.50",
+        "amount": "6450.00"
+      },
+      {
+        "sku": "ACM-1111",
+        "description": "Shop Vacuum Filter",
+        "quantity": 24,
+        "unit_price": "18.75",
+        "amount": "450.00"
+      },
+      {
+        "sku": "ACM-1000",
+        "description": "Steel Shelving Unit 72in",
+        "quantity": 50,
+        "unit_price": "189.00",
+        "amount": "9450.00"
+      }
+    ],
+    "file": "main_056.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "qty_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "QTY_EXCEEDS_PO"
+    ],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000155",
+    "invoice_date": "2026-09-10",
+    "po_number": "PO-2026-0059",
+    "currency": "USD",
+    "subtotal": "4789.00",
+    "tax": "425.02",
+    "total": "5214.02",
+    "line_items": [
+      {
+        "sku": "BOP-1074",
+        "description": "Ergonomic Desk Chair",
+        "quantity": 16,
+        "unit_price": "219.00",
+        "amount": "3504.00"
+      },
+      {
+        "sku": "BOP-1111",
+        "description": "Whiteboard 4x6",
+        "quantity": 10,
+        "unit_price": "128.50",
+        "amount": "1285.00"
+      }
+    ],
+    "file": "main_057.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "missing_po",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "MISSING_PO"
+    ],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000164",
+    "invoice_date": "2026-10-19",
+    "po_number": null,
+    "currency": "USD",
+    "subtotal": "25773.60",
+    "tax": "2287.41",
+    "total": "28061.01",
+    "line_items": [
+      {
+        "sku": "BOP-1000",
+        "description": "Copy Paper Case",
+        "quantity": 40,
+        "unit_price": "44.99",
+        "amount": "1799.60"
+      },
+      {
+        "sku": "BOP-1037",
+        "description": "Ballpoint Pens Box",
+        "quantity": 100,
+        "unit_price": "6.49",
+        "amount": "649.00"
+      },
+      {
+        "sku": "BOP-1185",
+        "description": "File Folders Box",
+        "quantity": 100,
+        "unit_price": "14.25",
+        "amount": "1425.00"
+      },
+      {
+        "sku": "BOP-1074",
+        "description": "Ergonomic Desk Chair",
+        "quantity": 100,
+        "unit_price": "219.00",
+        "amount": "21900.00"
+      }
+    ],
+    "file": "main_058.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V008",
+    "vendor_name": "Cobalt IT Hardware",
+    "invoice_number": "CIT-26-0271",
+    "invoice_date": "2026-09-11",
+    "po_number": "PO-2026-0061",
+    "currency": "USD",
+    "subtotal": "34671.50",
+    "tax": "2860.40",
+    "total": "37531.90",
+    "line_items": [
+      {
+        "sku": "CIT-1074",
+        "description": "Wireless Keyboard",
+        "quantity": 100,
+        "unit_price": "39.99",
+        "amount": "3999.00"
+      },
+      {
+        "sku": "CIT-1148",
+        "description": "Laptop Sleeve 15in",
+        "quantity": 200,
+        "unit_price": "18.50",
+        "amount": "3700.00"
+      },
+      {
+        "sku": "CIT-1111",
+        "description": "Cat6 Patch Cable 10ft",
+        "quantity": 10,
+        "unit_price": "4.25",
+        "amount": "42.50"
+      },
+      {
+        "sku": "CIT-1037",
+        "description": "27in Monitor",
+        "quantity": 20,
+        "unit_price": "229.00",
+        "amount": "4580.00"
+      },
+      {
+        "sku": "CIT-1000",
+        "description": "USB-C Dock",
+        "quantity": 150,
+        "unit_price": "149.00",
+        "amount": "22350.00"
+      }
+    ],
+    "file": "main_059.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "qty_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "QTY_EXCEEDS_PO"
+    ],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000172",
+    "invoice_date": "2026-10-08",
+    "po_number": "PO-2026-0062",
+    "currency": "USD",
+    "subtotal": "2367.39",
+    "tax": "210.11",
+    "total": "2577.50",
+    "line_items": [
+      {
+        "sku": "BOP-1037",
+        "description": "Ballpoint Pens Box",
+        "quantity": 21,
+        "unit_price": "6.49",
+        "amount": "136.29"
+      },
+      {
+        "sku": "BOP-1148",
+        "description": "Toner Cartridge Black",
+        "quantity": 5,
+        "unit_price": "86.30",
+        "amount": "431.50"
+      },
+      {
+        "sku": "BOP-1000",
+        "description": "Copy Paper Case",
+        "quantity": 40,
+        "unit_price": "44.99",
+        "amount": "1799.60"
+      }
+    ],
+    "file": "main_060.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V005",
+    "vendor_name": "Harbor Electrical Wholesale",
+    "invoice_number": "HEW-00426",
+    "invoice_date": "2026-10-25",
+    "po_number": "PO-2026-0063",
+    "currency": "USD",
+    "subtotal": "19765.80",
+    "tax": "1630.68",
+    "total": "21396.48",
+    "line_items": [
+      {
+        "sku": "HEW-1185",
+        "description": "Junction Box Steel",
+        "quantity": 20,
+        "unit_price": "3.65",
+        "amount": "73.00"
+      },
+      {
+        "sku": "HEW-1111",
+        "description": "Conduit EMT 10ft",
+        "quantity": 24,
+        "unit_price": "8.45",
+        "amount": "202.80"
+      },
+      {
+        "sku": "HEW-1000",
+        "description": "THHN Wire 12 AWG Spool",
+        "quantity": 150,
+        "unit_price": "118.00",
+        "amount": "17700.00"
+      },
+      {
+        "sku": "HEW-1074",
+        "description": "GFCI Outlet 20A",
+        "quantity": 100,
+        "unit_price": "17.90",
+        "amount": "1790.00"
+      }
+    ],
+    "file": "main_061.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V002",
+    "vendor_name": "Northwind Packaging Co.",
+    "invoice_number": "NW-2026-0254",
+    "invoice_date": "2026-11-12",
+    "po_number": "PO-2026-0064",
+    "currency": "USD",
+    "subtotal": "475.40",
+    "tax": "34.47",
+    "total": "509.87",
+    "line_items": [
+      {
+        "sku": "NWP-1185",
+        "description": "Pallet Corner Board",
+        "quantity": 12,
+        "unit_price": "0.95",
+        "amount": "11.40"
+      },
+      {
+        "sku": "NWP-1037",
+        "description": "Stretch Wrap Roll",
+        "quantity": 10,
+        "unit_price": "22.40",
+        "amount": "224.00"
+      },
+      {
+        "sku": "NWP-1074",
+        "description": "Packing Tape Case",
+        "quantity": 5,
+        "unit_price": "48.00",
+        "amount": "240.00"
+      }
+    ],
+    "file": "main_062.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V005",
+    "vendor_name": "Harbor Electrical Wholesale",
+    "invoice_number": "HEW-00427",
+    "invoice_date": "2026-10-26",
+    "po_number": "PO-2026-0065",
+    "currency": "USD",
+    "subtotal": "8110.50",
+    "tax": "669.12",
+    "total": "8779.62",
+    "line_items": [
+      {
+        "sku": "HEW-1000",
+        "description": "THHN Wire 12 AWG Spool",
+        "quantity": 24,
+        "unit_price": "118.00",
+        "amount": "2832.00"
+      },
+      {
+        "sku": "HEW-1111",
+        "description": "Conduit EMT 10ft",
+        "quantity": 60,
+        "unit_price": "8.45",
+        "amount": "507.00"
+      },
+      {
+        "sku": "HEW-1074",
+        "description": "GFCI Outlet 20A",
+        "quantity": 60,
+        "unit_price": "17.90",
+        "amount": "1074.00"
+      },
+      {
+        "sku": "HEW-1148",
+        "description": "Breaker 20A Single Pole",
+        "quantity": 50,
+        "unit_price": "11.20",
+        "amount": "560.00"
+      },
+      {
+        "sku": "HEW-1037",
+        "description": "LED Panel Light 2x4",
+        "quantity": 50,
+        "unit_price": "62.75",
+        "amount": "3137.50"
+      }
+    ],
+    "file": "main_063.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "missing_po",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "MISSING_PO"
+    ],
+    "vendor_id": "V006",
+    "vendor_name": "Pinecrest Janitorial Supplies",
+    "invoice_number": "PJ-0362",
+    "invoice_date": "2026-11-13",
+    "po_number": null,
+    "currency": "USD",
+    "subtotal": "11431.50",
+    "tax": "828.78",
+    "total": "12260.28",
+    "line_items": [
+      {
+        "sku": "PJS-1000",
+        "description": "Trash Liner Case",
+        "quantity": 100,
+        "unit_price": "38.50",
+        "amount": "3850.00"
+      },
+      {
+        "sku": "PJS-1185",
+        "description": "Disinfectant Spray Case",
+        "quantity": 100,
+        "unit_price": "64.00",
+        "amount": "6400.00"
+      },
+      {
+        "sku": "PJS-1037",
+        "description": "Floor Cleaner Concentrate",
+        "quantity": 5,
+        "unit_price": "27.80",
+        "amount": "139.00"
+      },
+      {
+        "sku": "PJS-1074",
+        "description": "Microfiber Mop Head",
+        "quantity": 150,
+        "unit_price": "6.95",
+        "amount": "1042.50"
+      }
+    ],
+    "file": "main_064.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "totals_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "TOTALS_MISMATCH"
+    ],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00811",
+    "invoice_date": "2026-09-12",
+    "po_number": "PO-2026-0067",
+    "currency": "USD",
+    "subtotal": "10864.40",
+    "tax": "896.31",
+    "total": "11890.71",
+    "line_items": [
+      {
+        "sku": "ACM-1111",
+        "description": "Shop Vacuum Filter",
+        "quantity": 24,
+        "unit_price": "18.75",
+        "amount": "450.00"
+      },
+      {
+        "sku": "ACM-1148",
+        "description": "Industrial Floor Mat",
+        "quantity": 12,
+        "unit_price": "56.20",
+        "amount": "674.40"
+      },
+      {
+        "sku": "ACM-1185",
+        "description": "Wire Bin Rack",
+        "quantity": 100,
+        "unit_price": "97.40",
+        "amount": "9740.00"
+      }
+    ],
+    "file": "main_065.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V006",
+    "vendor_name": "Pinecrest Janitorial Supplies",
+    "invoice_number": "PJ-0369",
+    "invoice_date": "2026-11-10",
+    "po_number": "PO-2026-0068",
+    "currency": "USD",
+    "subtotal": "20267.40",
+    "tax": "1469.39",
+    "total": "21736.79",
+    "line_items": [
+      {
+        "sku": "PJS-1074",
+        "description": "Microfiber Mop Head",
+        "quantity": 40,
+        "unit_price": "6.95",
+        "amount": "278.00"
+      },
+      {
+        "sku": "PJS-1185",
+        "description": "Disinfectant Spray Case",
+        "quantity": 200,
+        "unit_price": "64.00",
+        "amount": "12800.00"
+      },
+      {
+        "sku": "PJS-1000",
+        "description": "Trash Liner Case",
+        "quantity": 50,
+        "unit_price": "38.50",
+        "amount": "1925.00"
+      },
+      {
+        "sku": "PJS-1111",
+        "description": "Paper Towel Case",
+        "quantity": 24,
+        "unit_price": "45.60",
+        "amount": "1094.40"
+      },
+      {
+        "sku": "PJS-1037",
+        "description": "Floor Cleaner Concentrate",
+        "quantity": 150,
+        "unit_price": "27.80",
+        "amount": "4170.00"
+      }
+    ],
+    "file": "main_066.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "totals_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "TOTALS_MISMATCH"
+    ],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00818",
+    "invoice_date": "2026-09-07",
+    "po_number": "PO-2026-0069",
+    "currency": "USD",
+    "subtotal": "31880.00",
+    "tax": "2630.10",
+    "total": "34568.10",
+    "line_items": [
+      {
+        "sku": "ACM-1000",
+        "description": "Steel Shelving Unit 72in",
+        "quantity": 40,
+        "unit_price": "189.00",
+        "amount": "7560.00"
+      },
+      {
+        "sku": "ACM-1074",
+        "description": "Heavy Duty Hand Truck",
+        "quantity": 60,
+        "unit_price": "142.00",
+        "amount": "8520.00"
+      },
+      {
+        "sku": "ACM-1148",
+        "description": "Industrial Floor Mat",
+        "quantity": 5,
+        "unit_price": "56.20",
+        "amount": "281.00"
+      },
+      {
+        "sku": "ACM-1037",
+        "description": "Pallet Jack Wheel Kit",
+        "quantity": 150,
+        "unit_price": "64.50",
+        "amount": "9675.00"
+      },
+      {
+        "sku": "ACM-1185",
+        "description": "Wire Bin Rack",
+        "quantity": 60,
+        "unit_price": "97.40",
+        "amount": "5844.00"
+      }
+    ],
+    "file": "main_067.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "partial",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V006",
+    "vendor_name": "Pinecrest Janitorial Supplies",
+    "invoice_number": "PJ-0371",
+    "invoice_date": "2026-09-04",
+    "po_number": "PO-2026-0070",
+    "currency": "USD",
+    "subtotal": "9061.20",
+    "tax": "656.94",
+    "total": "9718.14",
+    "line_items": [
+      {
+        "sku": "PJS-1185",
+        "description": "Disinfectant Spray Case",
+        "quantity": 60,
+        "unit_price": "64.00",
+        "amount": "3840.00"
+      },
+      {
+        "sku": "PJS-1111",
+        "description": "Paper Towel Case",
+        "quantity": 12,
+        "unit_price": "45.60",
+        "amount": "547.20"
+      },
+      {
+        "sku": "PJS-1000",
+        "description": "Trash Liner Case",
+        "quantity": 24,
+        "unit_price": "38.50",
+        "amount": "924.00"
+      },
+      {
+        "sku": "PJS-1148",
+        "description": "Hand Soap Refill",
+        "quantity": 50,
+        "unit_price": "19.40",
+        "amount": "970.00"
+      },
+      {
+        "sku": "PJS-1037",
+        "description": "Floor Cleaner Concentrate",
+        "quantity": 100,
+        "unit_price": "27.80",
+        "amount": "2780.00"
+      }
+    ],
+    "file": "main_068.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "unreadable",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "UNREADABLE"
+    ],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00921",
+    "invoice_date": "2026-10-30",
+    "po_number": "PO-2026-0071",
+    "currency": "USD",
+    "subtotal": "2917.00",
+    "tax": "0.00",
+    "total": "2917.00",
+    "line_items": [
+      {
+        "sku": "SSG-1074",
+        "description": "Hi-Vis Vest Class 2",
+        "quantity": 60,
+        "unit_price": "9.85",
+        "amount": "591.00"
+      },
+      {
+        "sku": "SSG-1148",
+        "description": "Ear Plugs Dispenser Refill",
+        "quantity": 40,
+        "unit_price": "52.00",
+        "amount": "2080.00"
+      },
+      {
+        "sku": "SSG-1000",
+        "description": "Hard Hat Class E",
+        "quantity": 10,
+        "unit_price": "24.60",
+        "amount": "246.00"
+      }
+    ],
+    "file": "main_069.pdf",
+    "layout": "scan"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V002",
+    "vendor_name": "Northwind Packaging Co.",
+    "invoice_number": "NW-2026-0262",
+    "invoice_date": "2026-11-10",
+    "po_number": "PO-2026-0072",
+    "currency": "USD",
+    "subtotal": "4419.80",
+    "tax": "320.44",
+    "total": "4740.24",
+    "line_items": [
+      {
+        "sku": "NWP-1111",
+        "description": "Bubble Mailer 10x13",
+        "quantity": 40,
+        "unit_price": "0.62",
+        "amount": "24.80"
+      },
+      {
+        "sku": "NWP-1074",
+        "description": "Packing Tape Case",
+        "quantity": 50,
+        "unit_price": "48.00",
+        "amount": "2400.00"
+      },
+      {
+        "sku": "NWP-1148",
+        "description": "Void Fill Paper Roll",
+        "quantity": 50,
+        "unit_price": "39.90",
+        "amount": "1995.00"
+      }
+    ],
+    "file": "main_070.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000177",
+    "invoice_date": "2026-11-15",
+    "po_number": "PO-2026-0073",
+    "currency": "USD",
+    "subtotal": "4994.36",
+    "tax": "443.25",
+    "total": "5437.61",
+    "line_items": [
+      {
+        "sku": "BOP-1037",
+        "description": "Ballpoint Pens Box",
+        "quantity": 40,
+        "unit_price": "6.49",
+        "amount": "259.60"
+      },
+      {
+        "sku": "BOP-1148",
+        "description": "Toner Cartridge Black",
+        "quantity": 25,
+        "unit_price": "86.30",
+        "amount": "2157.50"
+      },
+      {
+        "sku": "BOP-1185",
+        "description": "File Folders Box",
+        "quantity": 60,
+        "unit_price": "14.25",
+        "amount": "855.00"
+      },
+      {
+        "sku": "BOP-1000",
+        "description": "Copy Paper Case",
+        "quantity": 24,
+        "unit_price": "44.99",
+        "amount": "1079.76"
+      },
+      {
+        "sku": "BOP-1111",
+        "description": "Whiteboard 4x6",
+        "quantity": 5,
+        "unit_price": "128.50",
+        "amount": "642.50"
+      }
+    ],
+    "file": "main_071.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V008",
+    "vendor_name": "Cobalt IT Hardware",
+    "invoice_number": "CIT-26-0280",
+    "invoice_date": "2026-10-19",
+    "po_number": "PO-2026-0074",
+    "currency": "USD",
+    "subtotal": "11908.75",
+    "tax": "982.47",
+    "total": "12891.22",
+    "line_items": [
+      {
+        "sku": "CIT-1111",
+        "description": "Cat6 Patch Cable 10ft",
+        "quantity": 25,
+        "unit_price": "4.25",
+        "amount": "106.25"
+      },
+      {
+        "sku": "CIT-1148",
+        "description": "Laptop Sleeve 15in",
+        "quantity": 25,
+        "unit_price": "18.50",
+        "amount": "462.50"
+      },
+      {
+        "sku": "CIT-1185",
+        "description": "Network Switch 24 Port",
+        "quantity": 60,
+        "unit_price": "189.00",
+        "amount": "11340.00"
+      }
+    ],
+    "file": "main_072.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "qty_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "QTY_EXCEEDS_PO"
+    ],
+    "vendor_id": "V008",
+    "vendor_name": "Cobalt IT Hardware",
+    "invoice_number": "CIT-26-0287",
+    "invoice_date": "2026-10-20",
+    "po_number": "PO-2026-0075",
+    "currency": "USD",
+    "subtotal": "43224.25",
+    "tax": "3566.00",
+    "total": "46790.25",
+    "line_items": [
+      {
+        "sku": "CIT-1037",
+        "description": "27in Monitor",
+        "quantity": 40,
+        "unit_price": "229.00",
+        "amount": "9160.00"
+      },
+      {
+        "sku": "CIT-1185",
+        "description": "Network Switch 24 Port",
+        "quantity": 22,
+        "unit_price": "189.00",
+        "amount": "4158.00"
+      },
+      {
+        "sku": "CIT-1111",
+        "description": "Cat6 Patch Cable 10ft",
+        "quantity": 25,
+        "unit_price": "4.25",
+        "amount": "106.25"
+      },
+      {
+        "sku": "CIT-1000",
+        "description": "USB-C Dock",
+        "quantity": 200,
+        "unit_price": "149.00",
+        "amount": "29800.00"
+      }
+    ],
+    "file": "main_073.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00826",
+    "invoice_date": "2026-09-02",
+    "po_number": "PO-2026-0076",
+    "currency": "USD",
+    "subtotal": "6852.00",
+    "tax": "565.29",
+    "total": "7417.29",
+    "line_items": [
+      {
+        "sku": "ACM-1148",
+        "description": "Industrial Floor Mat",
+        "quantity": 10,
+        "unit_price": "56.20",
+        "amount": "562.00"
+      },
+      {
+        "sku": "ACM-1185",
+        "description": "Wire Bin Rack",
+        "quantity": 50,
+        "unit_price": "97.40",
+        "amount": "4870.00"
+      },
+      {
+        "sku": "ACM-1074",
+        "description": "Heavy Duty Hand Truck",
+        "quantity": 10,
+        "unit_price": "142.00",
+        "amount": "1420.00"
+      }
+    ],
+    "file": "main_074.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "price_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "PRICE_MISMATCH"
+    ],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000183",
+    "invoice_date": "2026-11-08",
+    "po_number": "PO-2026-0077",
+    "currency": "USD",
+    "subtotal": "46804.05",
+    "tax": "4153.86",
+    "total": "50957.91",
+    "line_items": [
+      {
+        "sku": "BOP-1185",
+        "description": "File Folders Box",
+        "quantity": 25,
+        "unit_price": "14.25",
+        "amount": "356.25"
+      },
+      {
+        "sku": "BOP-1037",
+        "description": "Ballpoint Pens Box",
+        "quantity": 100,
+        "unit_price": "6.49",
+        "amount": "649.00"
+      },
+      {
+        "sku": "BOP-1000",
+        "description": "Copy Paper Case",
+        "quantity": 200,
+        "unit_price": "44.99",
+        "amount": "8998.00"
+      },
+      {
+        "sku": "BOP-1148",
+        "description": "Toner Cartridge Black",
+        "quantity": 40,
+        "unit_price": "98.77",
+        "amount": "3950.80"
+      },
+      {
+        "sku": "BOP-1074",
+        "description": "Ergonomic Desk Chair",
+        "quantity": 150,
+        "unit_price": "219.00",
+        "amount": "32850.00"
+      }
+    ],
+    "file": "main_075.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "unreadable",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "UNREADABLE"
+    ],
+    "vendor_id": "V008",
+    "vendor_name": "Cobalt IT Hardware",
+    "invoice_number": "CIT-26-0292",
+    "invoice_date": "2026-09-30",
+    "po_number": "PO-2026-0078",
+    "currency": "USD",
+    "subtotal": "22720.00",
+    "tax": "1874.40",
+    "total": "24594.40",
+    "line_items": [
+      {
+        "sku": "CIT-1148",
+        "description": "Laptop Sleeve 15in",
+        "quantity": 20,
+        "unit_price": "18.50",
+        "amount": "370.00"
+      },
+      {
+        "sku": "CIT-1000",
+        "description": "USB-C Dock",
+        "quantity": 150,
+        "unit_price": "149.00",
+        "amount": "22350.00"
+      }
+    ],
+    "file": "main_076.pdf",
+    "layout": "scan"
+  },
+  {
+    "category": "duplicate",
+    "expected_status": "rejected",
+    "expected_reasons": [
+      "DUPLICATE"
+    ],
+    "vendor_id": "V005",
+    "vendor_name": "Harbor Electrical Wholesale",
+    "invoice_number": "HEW-00390",
+    "invoice_date": "2026-10-23",
+    "po_number": "PO-2026-0025",
+    "currency": "USD",
+    "subtotal": "5952.50",
+    "tax": "491.08",
+    "total": "6443.58",
+    "line_items": [
+      {
+        "sku": "HEW-1000",
+        "description": "THHN Wire 12 AWG Spool",
+        "quantity": 20,
+        "unit_price": "118.00",
+        "amount": "2360.00"
+      },
+      {
+        "sku": "HEW-1074",
+        "description": "GFCI Outlet 20A",
+        "quantity": 150,
+        "unit_price": "17.90",
+        "amount": "2685.00"
+      },
+      {
+        "sku": "HEW-1037",
+        "description": "LED Panel Light 2x4",
+        "quantity": 10,
+        "unit_price": "62.75",
+        "amount": "627.50"
+      },
+      {
+        "sku": "HEW-1148",
+        "description": "Breaker 20A Single Pole",
+        "quantity": 25,
+        "unit_price": "11.20",
+        "amount": "280.00"
+      }
+    ],
+    "file": "main_077.pdf",
+    "layout": "A",
+    "duplicate_of": "HEW-00390"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V002",
+    "vendor_name": "Northwind Packaging Co.",
+    "invoice_number": "NW-2026-0268",
+    "invoice_date": "2026-10-26",
+    "po_number": "PO-2026-0079",
+    "currency": "USD",
+    "subtotal": "766.60",
+    "tax": "55.58",
+    "total": "822.18",
+    "line_items": [
+      {
+        "sku": "NWP-1000",
+        "description": "Corrugated Box 18x12x12",
+        "quantity": 5,
+        "unit_price": "1.85",
+        "amount": "9.25"
+      },
+      {
+        "sku": "NWP-1185",
+        "description": "Pallet Corner Board",
+        "quantity": 5,
+        "unit_price": "0.95",
+        "amount": "4.75"
+      },
+      {
+        "sku": "NWP-1111",
+        "description": "Bubble Mailer 10x13",
+        "quantity": 25,
+        "unit_price": "0.62",
+        "amount": "15.50"
+      },
+      {
+        "sku": "NWP-1148",
+        "description": "Void Fill Paper Roll",
+        "quantity": 5,
+        "unit_price": "39.90",
+        "amount": "199.50"
+      },
+      {
+        "sku": "NWP-1037",
+        "description": "Stretch Wrap Roll",
+        "quantity": 24,
+        "unit_price": "22.40",
+        "amount": "537.60"
+      }
+    ],
+    "file": "main_078.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "duplicate",
+    "expected_status": "rejected",
+    "expected_reasons": [
+      "DUPLICATE"
+    ],
+    "vendor_id": "V002",
+    "vendor_name": "Northwind Packaging Co.",
+    "invoice_number": "NW-2026-0237",
+    "invoice_date": "2026-09-09",
+    "po_number": "PO-2026-0019",
+    "currency": "USD",
+    "subtotal": "2931.60",
+    "tax": "212.54",
+    "total": "3144.14",
+    "line_items": [
+      {
+        "sku": "NWP-1148",
+        "description": "Void Fill Paper Roll",
+        "quantity": 60,
+        "unit_price": "39.90",
+        "amount": "2394.00"
+      },
+      {
+        "sku": "NWP-1037",
+        "description": "Stretch Wrap Roll",
+        "quantity": 24,
+        "unit_price": "22.40",
+        "amount": "537.60"
+      }
+    ],
+    "file": "main_079.pdf",
+    "layout": "C",
+    "duplicate_of": "NW-2026-0237"
+  },
+  {
+    "category": "duplicate",
+    "expected_status": "rejected",
+    "expected_reasons": [
+      "DUPLICATE"
+    ],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00777",
+    "invoice_date": "2026-10-09",
+    "po_number": "PO-2026-0042",
+    "currency": "USD",
+    "subtotal": "15221.00",
+    "tax": "1255.73",
+    "total": "16476.73",
+    "line_items": [
+      {
+        "sku": "ACM-1111",
+        "description": "Shop Vacuum Filter",
+        "quantity": 100,
+        "unit_price": "18.75",
+        "amount": "1875.00"
+      },
+      {
+        "sku": "ACM-1185",
+        "description": "Wire Bin Rack",
+        "quantity": 40,
+        "unit_price": "97.40",
+        "amount": "3896.00"
+      },
+      {
+        "sku": "ACM-1000",
+        "description": "Steel Shelving Unit 72in",
+        "quantity": 50,
+        "unit_price": "189.00",
+        "amount": "9450.00"
+      }
+    ],
+    "file": "main_080.pdf",
+    "layout": "C",
+    "duplicate_of": "INV-00777"
+  },
+  {
+    "category": "unknown_po",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "UNKNOWN_PO"
+    ],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000190",
+    "invoice_date": "2026-10-01",
+    "po_number": "PO-2026-9891",
+    "currency": "USD",
+    "subtotal": "2642.50",
+    "tax": "234.52",
+    "total": "2877.02",
+    "line_items": [
+      {
+        "sku": "BOP-1148",
+        "description": "Toner Cartridge Black",
+        "quantity": 12,
+        "unit_price": "86.30",
+        "amount": "1035.60"
+      },
+      {
+        "sku": "BOP-1111",
+        "description": "Whiteboard 4x6",
+        "quantity": 12,
+        "unit_price": "128.50",
+        "amount": "1542.00"
+      },
+      {
+        "sku": "BOP-1037",
+        "description": "Ballpoint Pens Box",
+        "quantity": 10,
+        "unit_price": "6.49",
+        "amount": "64.90"
+      }
+    ],
+    "file": "main_081.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "totals_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "TOTALS_MISMATCH"
+    ],
+    "vendor_id": "V008",
+    "vendor_name": "Cobalt IT Hardware",
+    "invoice_number": "CIT-26-0300",
+    "invoice_date": "2026-10-07",
+    "po_number": "PO-2026-0081",
+    "currency": "USD",
+    "subtotal": "17550.50",
+    "tax": "1447.92",
+    "total": "19181.42",
+    "line_items": [
+      {
+        "sku": "CIT-1037",
+        "description": "27in Monitor",
+        "quantity": 50,
+        "unit_price": "229.00",
+        "amount": "11450.00"
+      },
+      {
+        "sku": "CIT-1111",
+        "description": "Cat6 Patch Cable 10ft",
+        "quantity": 24,
+        "unit_price": "4.25",
+        "amount": "102.00"
+      },
+      {
+        "sku": "CIT-1074",
+        "description": "Wireless Keyboard",
+        "quantity": 150,
+        "unit_price": "39.99",
+        "amount": "5998.50"
+      }
+    ],
+    "file": "main_082.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "vendor_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "VENDOR_MISMATCH"
+    ],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000197",
+    "invoice_date": "2026-10-06",
+    "po_number": "PO-2026-0082",
+    "currency": "USD",
+    "subtotal": "36042.26",
+    "tax": "3198.75",
+    "total": "39241.01",
+    "line_items": [
+      {
+        "sku": "BOP-1000",
+        "description": "Copy Paper Case",
+        "quantity": 100,
+        "unit_price": "44.99",
+        "amount": "4499.00"
+      },
+      {
+        "sku": "BOP-1037",
+        "description": "Ballpoint Pens Box",
+        "quantity": 24,
+        "unit_price": "6.49",
+        "amount": "155.76"
+      },
+      {
+        "sku": "BOP-1111",
+        "description": "Whiteboard 4x6",
+        "quantity": 200,
+        "unit_price": "128.50",
+        "amount": "25700.00"
+      },
+      {
+        "sku": "BOP-1074",
+        "description": "Ergonomic Desk Chair",
+        "quantity": 24,
+        "unit_price": "219.00",
+        "amount": "5256.00"
+      },
+      {
+        "sku": "BOP-1148",
+        "description": "Toner Cartridge Black",
+        "quantity": 5,
+        "unit_price": "86.30",
+        "amount": "431.50"
+      }
+    ],
+    "file": "main_083.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "duplicate",
+    "expected_status": "rejected",
+    "expected_reasons": [
+      "DUPLICATE"
+    ],
+    "vendor_id": "V002",
+    "vendor_name": "Northwind Packaging Co.",
+    "invoice_number": "NW-2026-0268",
+    "invoice_date": "2026-10-26",
+    "po_number": "PO-2026-0079",
+    "currency": "USD",
+    "subtotal": "766.60",
+    "tax": "55.58",
+    "total": "822.18",
+    "line_items": [
+      {
+        "sku": "NWP-1000",
+        "description": "Corrugated Box 18x12x12",
+        "quantity": 5,
+        "unit_price": "1.85",
+        "amount": "9.25"
+      },
+      {
+        "sku": "NWP-1185",
+        "description": "Pallet Corner Board",
+        "quantity": 5,
+        "unit_price": "0.95",
+        "amount": "4.75"
+      },
+      {
+        "sku": "NWP-1111",
+        "description": "Bubble Mailer 10x13",
+        "quantity": 25,
+        "unit_price": "0.62",
+        "amount": "15.50"
+      },
+      {
+        "sku": "NWP-1148",
+        "description": "Void Fill Paper Roll",
+        "quantity": 5,
+        "unit_price": "39.90",
+        "amount": "199.50"
+      },
+      {
+        "sku": "NWP-1037",
+        "description": "Stretch Wrap Roll",
+        "quantity": 24,
+        "unit_price": "22.40",
+        "amount": "537.60"
+      }
+    ],
+    "file": "main_084.pdf",
+    "layout": "B",
+    "duplicate_of": "NW-2026-0268"
+  },
+  {
+    "category": "missing_po",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "MISSING_PO"
+    ],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00832",
+    "invoice_date": "2026-09-29",
+    "po_number": null,
+    "currency": "USD",
+    "subtotal": "1723.80",
+    "tax": "142.21",
+    "total": "1866.01",
+    "line_items": [
+      {
+        "sku": "ACM-1148",
+        "description": "Industrial Floor Mat",
+        "quantity": 24,
+        "unit_price": "56.20",
+        "amount": "1348.80"
+      },
+      {
+        "sku": "ACM-1111",
+        "description": "Shop Vacuum Filter",
+        "quantity": 20,
+        "unit_price": "18.75",
+        "amount": "375.00"
+      }
+    ],
+    "file": "main_085.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00927",
+    "invoice_date": "2026-09-17",
+    "po_number": "PO-2026-0085",
+    "currency": "USD",
+    "subtotal": "12345.90",
+    "tax": "0.00",
+    "total": "12345.90",
+    "line_items": [
+      {
+        "sku": "SSG-1185",
+        "description": "First Aid Kit 50 Person",
+        "quantity": 150,
+        "unit_price": "74.95",
+        "amount": "11242.50"
+      },
+      {
+        "sku": "SSG-1037",
+        "description": "Safety Glasses Clear",
+        "quantity": 5,
+        "unit_price": "4.10",
+        "amount": "20.50"
+      },
+      {
+        "sku": "SSG-1000",
+        "description": "Hard Hat Class E",
+        "quantity": 24,
+        "unit_price": "24.60",
+        "amount": "590.40"
+      },
+      {
+        "sku": "SSG-1074",
+        "description": "Hi-Vis Vest Class 2",
+        "quantity": 50,
+        "unit_price": "9.85",
+        "amount": "492.50"
+      }
+    ],
+    "file": "main_086.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V002",
+    "vendor_name": "Northwind Packaging Co.",
+    "invoice_number": "NW-2026-0273",
+    "invoice_date": "2026-09-22",
+    "po_number": "PO-2026-0086",
+    "currency": "USD",
+    "subtotal": "1284.20",
+    "tax": "93.10",
+    "total": "1377.30",
+    "line_items": [
+      {
+        "sku": "NWP-1074",
+        "description": "Packing Tape Case",
+        "quantity": 12,
+        "unit_price": "48.00",
+        "amount": "576.00"
+      },
+      {
+        "sku": "NWP-1111",
+        "description": "Bubble Mailer 10x13",
+        "quantity": 60,
+        "unit_price": "0.62",
+        "amount": "37.20"
+      },
+      {
+        "sku": "NWP-1037",
+        "description": "Stretch Wrap Roll",
+        "quantity": 25,
+        "unit_price": "22.40",
+        "amount": "560.00"
+      },
+      {
+        "sku": "NWP-1000",
+        "description": "Corrugated Box 18x12x12",
+        "quantity": 60,
+        "unit_price": "1.85",
+        "amount": "111.00"
+      }
+    ],
+    "file": "main_087.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "unreadable",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "UNREADABLE"
+    ],
+    "vendor_id": "V005",
+    "vendor_name": "Harbor Electrical Wholesale",
+    "invoice_number": "HEW-00436",
+    "invoice_date": "2026-10-17",
+    "po_number": "PO-2026-0087",
+    "currency": "USD",
+    "subtotal": "31805.30",
+    "tax": "2623.94",
+    "total": "34429.24",
+    "line_items": [
+      {
+        "sku": "HEW-1074",
+        "description": "GFCI Outlet 20A",
+        "quantity": 12,
+        "unit_price": "17.90",
+        "amount": "214.80"
+      },
+      {
+        "sku": "HEW-1185",
+        "description": "Junction Box Steel",
+        "quantity": 20,
+        "unit_price": "3.65",
+        "amount": "73.00"
+      },
+      {
+        "sku": "HEW-1000",
+        "description": "THHN Wire 12 AWG Spool",
+        "quantity": 150,
+        "unit_price": "118.00",
+        "amount": "17700.00"
+      },
+      {
+        "sku": "HEW-1037",
+        "description": "LED Panel Light 2x4",
+        "quantity": 200,
+        "unit_price": "62.75",
+        "amount": "12550.00"
+      },
+      {
+        "sku": "HEW-1111",
+        "description": "Conduit EMT 10ft",
+        "quantity": 150,
+        "unit_price": "8.45",
+        "amount": "1267.50"
+      }
+    ],
+    "file": "main_088.pdf",
+    "layout": "scan"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V002",
+    "vendor_name": "Northwind Packaging Co.",
+    "invoice_number": "NW-2026-0279",
+    "invoice_date": "2026-09-14",
+    "po_number": "PO-2026-0088",
+    "currency": "USD",
+    "subtotal": "14547.60",
+    "tax": "1054.70",
+    "total": "15602.30",
+    "line_items": [
+      {
+        "sku": "NWP-1000",
+        "description": "Corrugated Box 18x12x12",
+        "quantity": 150,
+        "unit_price": "1.85",
+        "amount": "277.50"
+      },
+      {
+        "sku": "NWP-1074",
+        "description": "Packing Tape Case",
+        "quantity": 200,
+        "unit_price": "48.00",
+        "amount": "9600.00"
+      },
+      {
+        "sku": "NWP-1185",
+        "description": "Pallet Corner Board",
+        "quantity": 150,
+        "unit_price": "0.95",
+        "amount": "142.50"
+      },
+      {
+        "sku": "NWP-1037",
+        "description": "Stretch Wrap Roll",
+        "quantity": 24,
+        "unit_price": "22.40",
+        "amount": "537.60"
+      },
+      {
+        "sku": "NWP-1148",
+        "description": "Void Fill Paper Roll",
+        "quantity": 100,
+        "unit_price": "39.90",
+        "amount": "3990.00"
+      }
+    ],
+    "file": "main_089.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "duplicate",
+    "expected_status": "rejected",
+    "expected_reasons": [
+      "DUPLICATE"
+    ],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00803",
+    "invoice_date": "2026-10-14",
+    "po_number": "PO-2026-0058",
+    "currency": "USD",
+    "subtotal": "16837.00",
+    "tax": "1389.05",
+    "total": "18226.05",
+    "line_items": [
+      {
+        "sku": "ACM-1185",
+        "description": "Wire Bin Rack",
+        "quantity": 5,
+        "unit_price": "97.40",
+        "amount": "487.00"
+      },
+      {
+        "sku": "ACM-1037",
+        "description": "Pallet Jack Wheel Kit",
+        "quantity": 100,
+        "unit_price": "64.50",
+        "amount": "6450.00"
+      },
+      {
+        "sku": "ACM-1111",
+        "description": "Shop Vacuum Filter",
+        "quantity": 24,
+        "unit_price": "18.75",
+        "amount": "450.00"
+      },
+      {
+        "sku": "ACM-1000",
+        "description": "Steel Shelving Unit 72in",
+        "quantity": 50,
+        "unit_price": "189.00",
+        "amount": "9450.00"
+      }
+    ],
+    "file": "main_090.pdf",
+    "layout": "C",
+    "duplicate_of": "INV-00803"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00934",
+    "invoice_date": "2026-09-15",
+    "po_number": "PO-2026-0089",
+    "currency": "USD",
+    "subtotal": "21247.50",
+    "tax": "0.00",
+    "total": "21247.50",
+    "line_items": [
+      {
+        "sku": "SSG-1000",
+        "description": "Hard Hat Class E",
+        "quantity": 150,
+        "unit_price": "24.60",
+        "amount": "3690.00"
+      },
+      {
+        "sku": "SSG-1148",
+        "description": "Ear Plugs Dispenser Refill",
+        "quantity": 10,
+        "unit_price": "52.00",
+        "amount": "520.00"
+      },
+      {
+        "sku": "SSG-1074",
+        "description": "Hi-Vis Vest Class 2",
+        "quantity": 150,
+        "unit_price": "9.85",
+        "amount": "1477.50"
+      },
+      {
+        "sku": "SSG-1111",
+        "description": "Cut Resistant Gloves",
+        "quantity": 50,
+        "unit_price": "11.40",
+        "amount": "570.00"
+      },
+      {
+        "sku": "SSG-1185",
+        "description": "First Aid Kit 50 Person",
+        "quantity": 200,
+        "unit_price": "74.95",
+        "amount": "14990.00"
+      }
+    ],
+    "file": "main_091.pdf",
+    "layout": "C"
+  },
+  {
+    "category": "price_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "PRICE_MISMATCH"
+    ],
+    "vendor_id": "V003",
+    "vendor_name": "Bluebird Office Products",
+    "invoice_number": "000201",
+    "invoice_date": "2026-11-08",
+    "po_number": "PO-2026-0090",
+    "currency": "USD",
+    "subtotal": "4612.00",
+    "tax": "409.32",
+    "total": "5021.32",
+    "line_items": [
+      {
+        "sku": "BOP-1000",
+        "description": "Copy Paper Case",
+        "quantity": 50,
+        "unit_price": "48.44",
+        "amount": "2422.00"
+      },
+      {
+        "sku": "BOP-1074",
+        "description": "Ergonomic Desk Chair",
+        "quantity": 10,
+        "unit_price": "219.00",
+        "amount": "2190.00"
+      }
+    ],
+    "file": "main_092.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "duplicate",
+    "expected_status": "rejected",
+    "expected_reasons": [
+      "DUPLICATE"
+    ],
+    "vendor_id": "V004",
+    "vendor_name": "Summit Safety Gear LLC",
+    "invoice_number": "SSG00934",
+    "invoice_date": "2026-09-15",
+    "po_number": "PO-2026-0089",
+    "currency": "USD",
+    "subtotal": "21247.50",
+    "tax": "0.00",
+    "total": "21247.50",
+    "line_items": [
+      {
+        "sku": "SSG-1000",
+        "description": "Hard Hat Class E",
+        "quantity": 150,
+        "unit_price": "24.60",
+        "amount": "3690.00"
+      },
+      {
+        "sku": "SSG-1148",
+        "description": "Ear Plugs Dispenser Refill",
+        "quantity": 10,
+        "unit_price": "52.00",
+        "amount": "520.00"
+      },
+      {
+        "sku": "SSG-1074",
+        "description": "Hi-Vis Vest Class 2",
+        "quantity": 150,
+        "unit_price": "9.85",
+        "amount": "1477.50"
+      },
+      {
+        "sku": "SSG-1111",
+        "description": "Cut Resistant Gloves",
+        "quantity": 50,
+        "unit_price": "11.40",
+        "amount": "570.00"
+      },
+      {
+        "sku": "SSG-1185",
+        "description": "First Aid Kit 50 Person",
+        "quantity": 200,
+        "unit_price": "74.95",
+        "amount": "14990.00"
+      }
+    ],
+    "file": "main_093.pdf",
+    "layout": "C",
+    "duplicate_of": "SSG00934"
+  },
+  {
+    "category": "duplicate",
+    "expected_status": "rejected",
+    "expected_reasons": [
+      "DUPLICATE"
+    ],
+    "vendor_id": "V006",
+    "vendor_name": "Pinecrest Janitorial Supplies",
+    "invoice_number": "PJ-0369",
+    "invoice_date": "2026-11-10",
+    "po_number": "PO-2026-0068",
+    "currency": "USD",
+    "subtotal": "20267.40",
+    "tax": "1469.39",
+    "total": "21736.79",
+    "line_items": [
+      {
+        "sku": "PJS-1074",
+        "description": "Microfiber Mop Head",
+        "quantity": 40,
+        "unit_price": "6.95",
+        "amount": "278.00"
+      },
+      {
+        "sku": "PJS-1185",
+        "description": "Disinfectant Spray Case",
+        "quantity": 200,
+        "unit_price": "64.00",
+        "amount": "12800.00"
+      },
+      {
+        "sku": "PJS-1000",
+        "description": "Trash Liner Case",
+        "quantity": 50,
+        "unit_price": "38.50",
+        "amount": "1925.00"
+      },
+      {
+        "sku": "PJS-1111",
+        "description": "Paper Towel Case",
+        "quantity": 24,
+        "unit_price": "45.60",
+        "amount": "1094.40"
+      },
+      {
+        "sku": "PJS-1037",
+        "description": "Floor Cleaner Concentrate",
+        "quantity": 150,
+        "unit_price": "27.80",
+        "amount": "4170.00"
+      }
+    ],
+    "file": "main_094.pdf",
+    "layout": "B",
+    "duplicate_of": "PJ-0369"
+  },
+  {
+    "category": "vendor_mismatch",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "VENDOR_MISMATCH"
+    ],
+    "vendor_id": "V006",
+    "vendor_name": "Pinecrest Janitorial Supplies",
+    "invoice_number": "PJ-0377",
+    "invoice_date": "2026-09-08",
+    "po_number": "PO-2026-0091",
+    "currency": "USD",
+    "subtotal": "5023.50",
+    "tax": "364.20",
+    "total": "5387.70",
+    "line_items": [
+      {
+        "sku": "PJS-1037",
+        "description": "Floor Cleaner Concentrate",
+        "quantity": 25,
+        "unit_price": "27.80",
+        "amount": "695.00"
+      },
+      {
+        "sku": "PJS-1111",
+        "description": "Paper Towel Case",
+        "quantity": 10,
+        "unit_price": "45.60",
+        "amount": "456.00"
+      },
+      {
+        "sku": "PJS-1148",
+        "description": "Hand Soap Refill",
+        "quantity": 150,
+        "unit_price": "19.40",
+        "amount": "2910.00"
+      },
+      {
+        "sku": "PJS-1000",
+        "description": "Trash Liner Case",
+        "quantity": 25,
+        "unit_price": "38.50",
+        "amount": "962.50"
+      }
+    ],
+    "file": "main_095.pdf",
+    "layout": "A"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V007",
+    "vendor_name": "Redline Fasteners Inc.",
+    "invoice_number": "RF000392",
+    "invoice_date": "2026-09-07",
+    "po_number": "PO-2026-0093",
+    "currency": "USD",
+    "subtotal": "7341.00",
+    "tax": "440.46",
+    "total": "7781.46",
+    "line_items": [
+      {
+        "sku": "RLF-1037",
+        "description": "Lock Washer Box 500",
+        "quantity": 150,
+        "unit_price": "12.80",
+        "amount": "1920.00"
+      },
+      {
+        "sku": "RLF-1000",
+        "description": "Hex Bolt Box 100",
+        "quantity": 20,
+        "unit_price": "21.30",
+        "amount": "426.00"
+      },
+      {
+        "sku": "RLF-1111",
+        "description": "Machine Screw Assortment",
+        "quantity": 150,
+        "unit_price": "27.60",
+        "amount": "4140.00"
+      },
+      {
+        "sku": "RLF-1148",
+        "description": "Threaded Rod 3ft",
+        "quantity": 150,
+        "unit_price": "5.70",
+        "amount": "855.00"
+      }
+    ],
+    "file": "main_096.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "missing_po",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "MISSING_PO"
+    ],
+    "vendor_id": "V006",
+    "vendor_name": "Pinecrest Janitorial Supplies",
+    "invoice_number": "PJ-0381",
+    "invoice_date": "2026-09-30",
+    "po_number": null,
+    "currency": "USD",
+    "subtotal": "2722.00",
+    "tax": "197.35",
+    "total": "2919.35",
+    "line_items": [
+      {
+        "sku": "PJS-1037",
+        "description": "Floor Cleaner Concentrate",
+        "quantity": 10,
+        "unit_price": "27.80",
+        "amount": "278.00"
+      },
+      {
+        "sku": "PJS-1148",
+        "description": "Hand Soap Refill",
+        "quantity": 60,
+        "unit_price": "19.40",
+        "amount": "1164.00"
+      },
+      {
+        "sku": "PJS-1185",
+        "description": "Disinfectant Spray Case",
+        "quantity": 20,
+        "unit_price": "64.00",
+        "amount": "1280.00"
+      }
+    ],
+    "file": "main_097.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "unreadable",
+    "expected_status": "needs_review",
+    "expected_reasons": [
+      "UNREADABLE"
+    ],
+    "vendor_id": "V006",
+    "vendor_name": "Pinecrest Janitorial Supplies",
+    "invoice_number": "PJ-0384",
+    "invoice_date": "2026-09-15",
+    "po_number": "PO-2026-0095",
+    "currency": "USD",
+    "subtotal": "1111.80",
+    "tax": "80.61",
+    "total": "1192.41",
+    "line_items": [
+      {
+        "sku": "PJS-1148",
+        "description": "Hand Soap Refill",
+        "quantity": 12,
+        "unit_price": "19.40",
+        "amount": "232.80"
+      },
+      {
+        "sku": "PJS-1000",
+        "description": "Trash Liner Case",
+        "quantity": 12,
+        "unit_price": "38.50",
+        "amount": "462.00"
+      },
+      {
+        "sku": "PJS-1074",
+        "description": "Microfiber Mop Head",
+        "quantity": 60,
+        "unit_price": "6.95",
+        "amount": "417.00"
+      }
+    ],
+    "file": "main_098.pdf",
+    "layout": "scan"
+  },
+  {
+    "category": "clean",
+    "expected_status": "approved",
+    "expected_reasons": [],
+    "vendor_id": "V001",
+    "vendor_name": "Acme Industrial Supply",
+    "invoice_number": "INV-00837",
+    "invoice_date": "2026-09-07",
+    "po_number": "PO-2026-0096",
+    "currency": "USD",
+    "subtotal": "22772.50",
+    "tax": "1878.73",
+    "total": "24651.23",
+    "line_items": [
+      {
+        "sku": "ACM-1000",
+        "description": "Steel Shelving Unit 72in",
+        "quantity": 100,
+        "unit_price": "189.00",
+        "amount": "18900.00"
+      },
+      {
+        "sku": "ACM-1074",
+        "description": "Heavy Duty Hand Truck",
+        "quantity": 25,
+        "unit_price": "142.00",
+        "amount": "3550.00"
+      },
+      {
+        "sku": "ACM-1037",
+        "description": "Pallet Jack Wheel Kit",
+        "quantity": 5,
+        "unit_price": "64.50",
+        "amount": "322.50"
+      }
+    ],
+    "file": "main_099.pdf",
+    "layout": "B"
+  },
+  {
+    "category": "duplicate",
+    "expected_status": "rejected",
+    "expected_reasons": [
+      "DUPLICATE"
+    ],
+    "vendor_id": "V006",
+    "vendor_name": "Pinecrest Janitorial Supplies",
+    "invoice_number": "PJ-0369",
+    "invoice_date": "2026-11-10",
+    "po_number": "PO-2026-0068",
+    "currency": "USD",
+    "subtotal": "20267.40",
+    "tax": "1469.39",
+    "total": "21736.79",
+    "line_items": [
+      {
+        "sku": "PJS-1074",
+        "description": "Microfiber Mop Head",
+        "quantity": 40,
+        "unit_price": "6.95",
+        "amount": "278.00"
+      },
+      {
+        "sku": "PJS-1185",
+        "description": "Disinfectant Spray Case",
+        "quantity": 200,
+        "unit_price": "64.00",
+        "amount": "12800.00"
+      },
+      {
+        "sku": "PJS-1000",
+        "description": "Trash Liner Case",
+        "quantity": 50,
+        "unit_price": "38.50",
+        "amount": "1925.00"
+      },
+      {
+        "sku": "PJS-1111",
+        "description": "Paper Towel Case",
+        "quantity": 24,
+        "unit_price": "45.60",
+        "amount": "1094.40"
+      },
+      {
+        "sku": "PJS-1037",
+        "description": "Floor Cleaner Concentrate",
+        "quantity": 150,
+        "unit_price": "27.80",
+        "amount": "4170.00"
+      }
+    ],
+    "file": "main_100.pdf",
+    "layout": "C",
+    "duplicate_of": "PJ-0369"
+  }
+]

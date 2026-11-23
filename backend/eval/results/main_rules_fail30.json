@@ -1,0 +1,218 @@
+{
+  "set": "main",
+  "extractor": "rules",
+  "erp_fail_rate": 0.3,
+  "invoices": 100,
+  "outcome_accuracy": [
+    94,
+    100
+  ],
+  "status_accuracy": [
+    95,
+    100
+  ],
+  "false_approvals": [
+    0,
+    54
+  ],
+  "clean_auto_approved": [
+    41,
+    46
+  ],
+  "field_accuracy_all": {
+    "vendor_name": [
+      93,
+      100
+    ],
+    "invoice_number": [
+      93,
+      100
+    ],
+    "invoice_date": [
+      93,
+      100
+    ],
+    "po_number": [
+      93,
+      100
+    ],
+    "subtotal": [
+      93,
+      100
+    ],
+    "tax": [
+      93,
+      100
+    ],
+    "total": [
+      93,
+      100
+    ]
+  },
+  "field_accuracy_readable": {
+    "vendor_name": [
+      93,
+      93
+    ],
+    "invoice_number": [
+      93,
+      93
+    ],
+    "invoice_date": [
+      93,
+      93
+    ],
+    "po_number": [
+      93,
+      93
+    ],
+    "subtotal": [
+      93,
+      93
+    ],
+    "tax": [
+      93,
+      93
+    ],
+    "total": [
+      93,
+      93
+    ]
+  },
+  "line_item_accuracy": [
+    344,
+    366
+  ],
+  "by_category": {
+    "partial": [
+      5,
+      6
+    ],
+    "unreadable": [
+      7,
+      7
+    ],
+    "clean": [
+      36,
+      40
+    ],
+    "missing_po": [
+      7,
+      7
+    ],
+    "price_mismatch": [
+      9,
+      9
+    ],
+    "unknown_po": [
+      4,
+      5
+    ],
+    "vendor_mismatch": [
+      4,
+      4
+    ],
+    "qty_mismatch": [
+      8,
+      8
+    ],
+    "totals_mismatch": [
+      6,
+      6
+    ],
+    "duplicate": [
+      8,
+      8
+    ]
+  },
+  "confusion": {
+    "approved -> approved": 41,
+    "approved -> needs_review": 5,
+    "needs_review -> needs_review": 46,
+    "rejected -> rejected": 8
+  },
+  "failure_causes": {
+    "ERP unavailable after retries": 6
+  },
+  "failures": [
+    {
+      "file": "main_011.pdf",
+      "category": "unknown_po",
+      "layout": "C",
+      "expected_status": "needs_review",
+      "status": "needs_review",
+      "expected_reasons": [
+        "UNKNOWN_PO"
+      ],
+      "issues": [
+        "ERP_UNAVAILABLE"
+      ],
+      "cause": "ERP unavailable after retries"
+    },
+    {
+      "file": "main_016.pdf",
+      "category": "partial",
+      "layout": "B",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "ERP_UNAVAILABLE"
+      ],
+      "cause": "ERP unavailable after retries"
+    },
+    {
+      "file": "main_042.pdf",
+      "category": "clean",
+      "layout": "C",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "ERP_UNAVAILABLE"
+      ],
+      "cause": "ERP unavailable after retries"
+    },
+    {
+      "file": "main_063.pdf",
+      "category": "clean",
+      "layout": "B",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "ERP_UNAVAILABLE"
+      ],
+      "cause": "ERP unavailable after retries"
+    },
+    {
+      "file": "main_066.pdf",
+      "category": "clean",
+      "layout": "A",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "ERP_UNAVAILABLE"
+      ],
+      "cause": "ERP unavailable after retries"
+    },
+    {
+      "file": "main_099.pdf",
+      "category": "clean",
+      "layout": "B",
+      "expected_status": "approved",
+      "status": "needs_review",
+      "expected_reasons": [],
+      "issues": [
+        "ERP_UNAVAILABLE"
+      ],
+      "cause": "ERP unavailable after retries"
+    }
+  ],
+  "avg_ms_per_invoice": 15.1,
+  "total_seconds": 1.81,
+  "methods": {
+    "rules": 100
+  }
+}
