@@ -4,7 +4,7 @@ An accounts-payable workflow that reads supplier invoices, checks them against p
 
 The focus is **workflow reliability**: every invoice ends in a known state, every decision is logged and can be undone, and an evaluation measures how often it gets things right.
 
-### Demo (2 min)
+## Demo (2 min)
 
 https://github.com/user-attachments/assets/00da5c00-6402-4e1d-bc38-b8dc75386f71
 
